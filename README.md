@@ -12,3 +12,12 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+
+
+To build a favicon, use
+
+```bash
+$ convert logo.png -resize 256x256 -define icon:auto-resize:64,48,32,24,16 favicon.ico
+```
+
+Direct transcode from svg gives opaque icons.
