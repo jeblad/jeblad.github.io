@@ -51,6 +51,9 @@ plugins:
   - jekyll-remote-theme
   - jekyll-avatar
 
+# Favicons, etc
+logo : /assets/icons/logo-small.png
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
