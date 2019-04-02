@@ -32,6 +32,10 @@ This site is devoted to various topics that the author(s) find interesting. Most
     {% endif %}
   </table>
 
+  {% if author[1].github %}
+  {% avatar {{ author[1].github }} %}
+  {% endif %}
+
   {% if author[1].about %}
   {{ author[1].about }}
   {% endif %}

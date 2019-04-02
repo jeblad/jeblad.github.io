@@ -1,0 +1,11 @@
+
+.avatar {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 0;
+}
+.identities {
+	float: right;
+	margin-left: 1em;
+	font-size:87%;
+}
