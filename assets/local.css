@@ -4,10 +4,16 @@
 	margin-right: 1em;
 	margin-bottom: 0;
 }
-.identities {
+.metadata {
 	float: right;
 	margin-left: 1em;
 	font-size:87%;
+}
+.metadata th {
+	text-align: right;
+}
+.metadata td {
+	text-align: left;
 }
 /*
 #site-title {

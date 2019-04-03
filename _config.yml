@@ -44,19 +44,25 @@ authors :
 
 repos :
   Inference :
-    doc-url : Pickle/mw.inference.html
-    repo-url : https://github.com/jeblad/Inference
-    tagline : 'Reference manual for the Lua libry'
+    docs :
+      lua :
+        title : Ldoc
+        url : Pickle/mw.inference.html
+    url : https://github.com/jeblad/Inference
     description : 'This extension for Mediawiki adds a simple inference engine to query and build sets of entities from a Wikibase repository.'
   Pickle :
-    doc-url : Pickle/mw.pickle.html
-    repo-url : https://github.com/jeblad/Pickle
-    tagline : 'Reference manual for the Lua libry'
+    docs :
+      lua :
+        title : Ldoc
+        url : Pickle/mw.pickle.html
+    url : https://github.com/jeblad/Pickle
     description : 'This extension for Mediawiki adds Pickle testing to Lua modules. An integral part is to report failures clearly and visible to facilitate interactive and collaborative fault fixing.'
   TemplateData :
-    doc-url : TemplateData/mw.templatedata.html
-    repo-url : https://github.com/jeblad/TemplateData
-    tagline : 'Reference manual for the Lua libry'
+    docs :
+      lua :
+        title : Ldoc
+        url : TemplateData/mw.templatedata.html
+    url : https://github.com/jeblad/TemplateData
     description : 'Fork of Extension:TemplateData for Mediawiki. This version has additional code for accessing TemplateData as Lua tables. Please verify that the remaining code is up to date.'
 
 # Build settings
