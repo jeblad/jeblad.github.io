@@ -4,14 +4,17 @@ title: About
 permalink: /about/
 ---
 
-<h2>Site</h2>
+## Site
 
 This site is devoted to various topics that the author(s) find interesting. Most of the articles should be fairly easy reading, while the more lengthy articles might be more demanding. The various articles should have a byline where at least the main author is listed.
 
-<h2>Authors</h2>
+## Authors
+
 {% for author in site.authors %}
-  <h3>{{ author[1].name }}</h3>
-  <table class="identities">
+
+### {{ author[1].name }}
+
+  <table class="metadata">
     {% if author[1].email %}
     <tr><th>Email:</th><td><a href="mailto:{{author[1].email}}">{{ author[1].email }}</a></td></tr>
     {% endif %}
