@@ -33,3 +33,8 @@
 {% if use_schema == 'include' %}
 {% include schema.html %}
 {% endif %}
+
+{% assign use_twcard = page.use_twcard | default: site.use_twcard %}
+{% if use_twcard == 'include' %}
+{% include twcard.html %}
+{% endif %}

@@ -28,6 +28,7 @@ github_username:  jekyll
 use_math: include
 use_dcmi: include
 use_schema: include
+use_twcard: include
 
 # Authors
 authors :

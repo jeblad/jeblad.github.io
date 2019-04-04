@@ -1,0 +1,10 @@
+<meta name="twitter:card" value="summary" />
+<meta name="twitter:site" content="{{ site.title }}" />
+{% if page.title %}
+<meta name="twitter:title" content="{{ page.title }}" />
+{% endif %}
+<meta name="twitter:image" content="{{ site.production_url }}{{ page.image | default: site.logo }}" />
+<meta name="twitter:description" content="{{ page.description }}" />
+{% if page.authors %}
+<meta name="twitter:creator" content="{% include authors-simple %}" />
+{% endif %}
