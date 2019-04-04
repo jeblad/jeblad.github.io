@@ -4,6 +4,7 @@
 
 layout: page
 title: Home
+use_math: exclude
 ---
 
 <ul class="posts">

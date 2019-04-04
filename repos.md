@@ -7,6 +7,7 @@ group: navigation
 weight: 98
 category: pages
 tags: [repo]
+use_math: exclude
 ---
 
 ## Repos

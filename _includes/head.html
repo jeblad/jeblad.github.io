@@ -5,7 +5,7 @@
 {% assign mdl_colors =page.mdl_colors | default: site.mdl_colors | default: 'blue-indigo' %}
 
 {% assign use_math = page.use_math | default: site.use_math %}
-{% if use_math %}
+{% if use_math == 'include' %}
 {% include mathjax.html %}
 {% endif %}
 
@@ -25,6 +25,6 @@
 {% endif %}
 
 {% assign use_dcmi = page.use_dcmi | default: site.use_dcmi %}
-{% if use_dcmi %}
+{% if use_dcmi == 'include' %}
 {% include dcmi.html %}
 {% endif %}
