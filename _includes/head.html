@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 {% assign mdl_colors =page.mdl_colors | default: site.mdl_colors | default: 'blue-indigo' %}
 
-{% if page.use_math %}
+{% if page.use_math | default: site.use_math %}
 {% include mathjax.html %}
 {% endif %}
 
