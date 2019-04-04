@@ -13,8 +13,7 @@
 <link rel="stylesheet" href="{{ '/assets/local.css' | absolute_url }}">
 
 {% if page.title %}
-<title>{{ page.title }}{% if page.tagline %} – {{ page.tagline }} {% endif %} @ {{ site.title }}
+<title>{{ page.title }}{% if page.tagline %} – {{ page.tagline }} {% endif %} @ {{ site.title }}</title>
 {% else %}
-{{ site.title }}
+<title>{{ site.title }}</title>
 {% endif %}
-
