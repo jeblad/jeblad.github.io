@@ -22,3 +22,8 @@
 {% if page.authors %}
 <meta name="author" content="{% include authors-simple %}" />
 {% endif %}
+
+{% assign use_dcmi = page.use_dcmi | default: site.use_dcmi %}
+{% if use_dcmi %}
+{% include dcmi.html %}
+{% endif %}
