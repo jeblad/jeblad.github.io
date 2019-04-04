@@ -29,6 +29,7 @@ use_math: include
 use_dcmi: include
 use_schema: include
 use_twcard: include
+use_opengraph: include
 
 # Authors
 authors :

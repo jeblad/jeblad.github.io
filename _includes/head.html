@@ -38,3 +38,8 @@
 {% if use_twcard == 'include' %}
 {% include twcard.html %}
 {% endif %}
+
+{% assign use_opengraph = page.use_opengraph | default: site.use_opengraph %}
+{% if use_opengraph == 'include' %}
+{% include opengraph.html %}
+{% endif %}
