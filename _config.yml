@@ -31,50 +31,12 @@ use_schema: include
 use_twcard: include
 use_opengraph: include
 
-# Authors
-authors :
-  jeblad:
-    name : John Erling Blad
-    email : jeblad@gmail.com
-    github : jeblad
-    twitter : jeblad
-    keybase : jeblad
-    linkedin : jeblad
-    wikimedia : jeblad
-    about: >-
-      I am a computer scientist, with a cand. sci. in mathematical modelling of analog processors
-      for neuromorph audio processing. In other words how to localize sound sources by using an
-      analog computer with transistors in low inversion. Very cool, and very weird. That was back
-      then, when the neural net field was new, and people still belived analog processing was the
-      way to go. Since then most funding has dried up, and I do web programming as most other
-      people in IT-science. But the way to go is still analog processing, it is just the rest of
-      the world does not know it.
-
-libs :
-  Inference :
-    docs :
-      ldoc :
-        url : Pickle/mw.inference.html
-    repos :
-      github :
-        url : https://github.com/jeblad/Inference
-    description : 'This extension for Mediawiki adds a simple inference engine to query and build sets of entities from a Wikibase repository.'
-  Pickle :
-    docs :
-      ldoc :
-        url : Pickle/mw.pickle.html
-    repos :
-      github :
-        url : https://github.com/jeblad/Pickle
-    description : 'This extension for Mediawiki adds Pickle testing to Lua modules. An integral part is to report failures clearly and visible to facilitate interactive and collaborative fault fixing.'
-  TemplateData :
-    docs :
-      ldoc :
-        url : TemplateData/mw.templatedata.html
-    repos :
-      github :
-        url : https://github.com/jeblad/TemplateData
-    description : 'Fork of Extension:TemplateData for Mediawiki. This version has additional code for accessing TemplateData as Lua tables. Please verify that the remaining code is up to date.'
+# Collections
+collections:
+  authors:
+    output: true
+  projects:
+    output: true
 
 # Build settings
 markdown: kramdown
