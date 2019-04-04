@@ -88,6 +88,9 @@ plugins:
 # Favicons, etc
 logo : /assets/icons/logo-small.png
 
+# Site language
+language: en
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
