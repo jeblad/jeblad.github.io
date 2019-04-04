@@ -1,8 +1,8 @@
 ---
-layout: page
-category : neural nets
+layout: post
 title: Rate Encoded Location
 tagline: place encode like a brain
+category : neural nets
 tags : [place encode, rate encode]
 description: Outline of rate encoded locations, how the brain might do it, and a possible approximation in an artificial neural net.
 authors: [jeblad]
@@ -14,7 +14,6 @@ repo_url: https://github.com/jeblad/brain/some-place
 repo_title: Deep into the repository
 license: cc-by-sa
 ---
-{_% include JB/setup %_}
 
 It is known from [grid cells](https://en.wikipedia.org/wiki/grid_cells) that the place can be encoded as an $N$-tuple of neuronal activities, where the activity of each neuron approximate a cosine function. This set of neurons encodes the location over several orders, and forms a reference grid for recall of the place. We can hypothesize that something similar happen in other neural networks, but we don't really know for sure.
 
