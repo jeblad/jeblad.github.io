@@ -15,6 +15,9 @@
 .metadata td {
 	text-align: left;
 }
+.leading li > *:first-child {
+	font-weight: bold;
+}
 /*
 #site-title {
 	background-image: url(/assets/icons/logo-small.svg);
