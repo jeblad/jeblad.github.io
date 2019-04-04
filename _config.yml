@@ -42,27 +42,30 @@ authors :
       people in IT-science. But the way to go is still analog processing, it is just the rest of
       the world does not know it.
 
-repos :
+libs :
   Inference :
     docs :
-      lua :
-        title : Ldoc
+      ldoc :
         url : Pickle/mw.inference.html
-    url : https://github.com/jeblad/Inference
+    repos :
+      github :
+        url : https://github.com/jeblad/Inference
     description : 'This extension for Mediawiki adds a simple inference engine to query and build sets of entities from a Wikibase repository.'
   Pickle :
     docs :
-      lua :
-        title : Ldoc
+      ldoc :
         url : Pickle/mw.pickle.html
-    url : https://github.com/jeblad/Pickle
+    repos :
+      github :
+        url : https://github.com/jeblad/Pickle
     description : 'This extension for Mediawiki adds Pickle testing to Lua modules. An integral part is to report failures clearly and visible to facilitate interactive and collaborative fault fixing.'
   TemplateData :
     docs :
-      lua :
-        title : Ldoc
+      ldoc :
         url : TemplateData/mw.templatedata.html
-    url : https://github.com/jeblad/TemplateData
+    repos :
+      github :
+        url : https://github.com/jeblad/TemplateData
     description : 'Fork of Extension:TemplateData for Mediawiki. This version has additional code for accessing TemplateData as Lua tables. Please verify that the remaining code is up to date.'
 
 # Build settings
