@@ -22,8 +22,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jeblad.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+
+# Metadata
+# Turn on and off with include and esclude.
 use_math: include
 use_dcmi: include
+use_schema: include
 
 # Authors
 authors :

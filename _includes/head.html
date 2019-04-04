@@ -28,3 +28,8 @@
 {% if use_dcmi == 'include' %}
 {% include dcmi.html %}
 {% endif %}
+
+{% assign use_schema = page.use_schema | default: site.use_schema %}
+{% if use_schema == 'include' %}
+{% include schema.html %}
+{% endif %}
