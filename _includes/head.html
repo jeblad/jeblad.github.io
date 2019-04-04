@@ -11,4 +11,10 @@
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.{{ mdl_colors }}.min.css" />
 <link rel="stylesheet" href="{{ '/assets/jekyll-materialdocs.css' | absolute_url }}">
 <link rel="stylesheet" href="{{ '/assets/local.css' | absolute_url }}">
-<title>{{ page.title }} | {{ site.title }}</title>
+
+{% if page.title %}
+<title>{{ page.title }}{% if page.tagline %} – {{ page.tagline }} {% endif %} @ {{ site.title }}
+{% else %}
+{{ site.title }}
+{% endif %}
+
