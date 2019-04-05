@@ -18,6 +18,12 @@
 .leading li > *:first-child {
 	font-weight: bold;
 }
+h1:first-letter,
+h2:first-letter,
+h3:first-letter,
+h4:first-letter {
+	text-transform: uppercase;
+}
 /*
 #site-title {
 	background-image: url(/assets/icons/logo-small.svg);
