@@ -4,7 +4,7 @@ title: Rate Encoded Location
 tagline: place encode like a brain
 category : neural nets
 tags : [place encode, rate encode]
-description: Outline of rate encoded locations, how the brain might do it, and a possible approximation in an artificial neural net.
+description: Outline of rate encoded locations, how the brain might do it, and a possible approximation for an artificial neural net.
 authors: [jeblad]
 # sources: [ ["This link is just an example", "https://github.com/jeblad/brain/some-place/some-place-deep.pdf"], ["This link is just an example", "https://github.com/jeblad/brain/some-place/some-other-place/"] ]
 paper_url: https://github.com/jeblad/brain/some-place/some-place-deep.pdf
