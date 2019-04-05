@@ -43,6 +43,7 @@ markdown: kramdown
 theme: jekyll-materialdocs
 remote_theme: chromatical/jekyll-materialdocs
 plugins:
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-avatar
@@ -52,6 +53,12 @@ logo : /assets/icons/logo-small.png
 
 # Site language
 language: en
+
+# Pagination
+paginate: 5
+
+# Excerpt
+excerpt_separator: <!--more-->
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
