@@ -24,13 +24,6 @@ h3:first-letter,
 h4:first-letter {
 	text-transform: uppercase;
 }
-/*
-h1 {
-	font-size: 45px;
-	font-weight: 400;
-	line-height: 48px;
-}
-*/
 h2 {
 	font-size: 34px;
 	font-weight: 400;
@@ -64,22 +57,17 @@ h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 	color: rgba(61,130,249,0.67);
 }
-/*
-.content {
-	padding: 0;
-}
-*/
 .mdl-navigation a.parent {
 	background-position: center left 20px;
 	background-repeat: no-repeat;
 	background-size: 28px 28px;
 }
-.mdl-navigation a[href*=home] { background-image: url(/assets/icons/home.svg); }
-.mdl-navigation a.is-active[href*=home] { background-image: url(/assets/icons/home-active.svg); }
-.mdl-navigation a[href*=about] { background-image: url(/assets/icons/about.svg); }
+.mdl-navigation a[href*=\/home\/] { background-image: url(/assets/icons/home.svg); }
+.mdl-navigation a.is-active[href*=\/home\/] { background-image: url(/assets/icons/home-active.svg); }
+.mdl-navigation a[href*=\/about\/] { background-image: url(/assets/icons/about.svg); }
 .mdl-navigation a.is-active[href*=about] { background-image: url(/assets/icons/about-active.svg); }
-.mdl-navigation a[href*=projects] { background-image: url(/assets/icons/cloud.svg); }
-.mdl-navigation a.is-active[href*=projects] { background-image: url(/assets/icons/cloud-active.svg); }
+.mdl-navigation a[href*=\/projects\/] { background-image: url(/assets/icons/cloud.svg); }
+.mdl-navigation a.is-active[href*=\/projects\/] { background-image: url(/assets/icons/cloud-active.svg); }
 #site-title {
 	font-size: 110%;
 }
