@@ -12,7 +12,7 @@ use_math: exclude
 
 This is a collection of documentation for various projects, not only for artificial neural nets, but for code and libraries the author(s) find interesting or has invested time into. Usually there should be one or more links to the library itself, and one or more links to the documentation.
 
-For further information, check the page for individual projects.
+For further information, check the page for each project.
 
 ## Projects
 
