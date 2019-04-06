@@ -7,7 +7,7 @@
 .metadata {
 	float: right;
 	margin-left: 1em;
-	font-size:87%;
+	/*font-size:87%;*/
 }
 .metadata th {
 	text-align: right;
@@ -23,6 +23,50 @@ h2:first-letter,
 h3:first-letter,
 h4:first-letter {
 	text-transform: uppercase;
+}
+h1 {
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 48px;
+}
+h2 {
+	font-size: 34px;
+	font-weight: 400;
+	line-height: 40px;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 32px;
+}
+h4 {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1;
+	letter-spacing: .02em;
+}
+.mdl-navigation a.parent {
+	background-position: center left 20px;
+	background-repeat: no-repeat;
+	background-size: 28px 28px;
+}
+.mdl-navigation a[href*=home] { background-image: url(/assets/icons/home.svg); }
+.mdl-navigation a.is-active[href*=home] { background-image: url(/assets/icons/home-active.svg); }
+.mdl-navigation a[href*=about] { background-image: url(/assets/icons/about.svg); }
+.mdl-navigation a.is-active[href*=about] { background-image: url(/assets/icons/about-active.svg); }
+.mdl-navigation a[href*=projects] { background-image: url(/assets/icons/cloud.svg); }
+.mdl-navigation a.is-active[href*=projects] { background-image: url(/assets/icons/cloud-active.svg); }
+#site-title {
+	font-size: 110%;
+}
+.mdl-navigation a {
+	font-size: 125%;
+}
+.mdl-navigation a {
+	padding-left: 60px !important;
+}
+.mdl-navigation a.is-active{
+	color: #3d82f9 !important;
 }
 /*
 #site-title {
