@@ -48,14 +48,15 @@ h4 {
 	letter-spacing: .02em;
 }
 h2, h3, h4, h5, h6 {
-	color: rgba(0,0,0,0.67);
+	color: rgba(32,32,32,0.87);
 }
 h2 a, h3 a, h4 a, h5 a, h6 a,
 h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link {
-	color: rgba(0,0,0,0.87);
+	color: rgba(48,48,48,0.87);
+	font-weight: inherit;
 }
 h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
-	color: rgba(0,0,0,0.67);
+	color: rgba(48,48,48,0.67);
 }
 h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 	color: rgba(61,130,249,0.87);
