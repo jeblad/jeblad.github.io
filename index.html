@@ -8,11 +8,11 @@ use_math: include
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p class="author">
     <span class="date">{{ post.date }}</span>
   </p>
-  <div class="content">
+  <div class="excerpt">
     {{ post.excerpt }}
   </div>
 {% endfor %}
