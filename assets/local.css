@@ -45,6 +45,12 @@ h4 {
 	line-height: 1;
 	letter-spacing: .02em;
 }
+h1, h2, h3, h4, h5, h6 {
+	color: rgba(0,0,0,0.67);
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: rgba(0,0,0,0.67);
+}
 .mdl-navigation a.parent {
 	background-position: center left 20px;
 	background-repeat: no-repeat;
