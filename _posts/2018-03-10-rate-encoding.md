@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rate Encoded Location
+title: Rate encoded location
 tagline: place encode like a brain
 category : neural nets
 tags : [place encode, rate encode]
