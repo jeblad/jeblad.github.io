@@ -2,14 +2,27 @@
 layout : author
 name : John Erling Blad
 title : John E. Blad
-tagline : cand. sci., mathematical modeling, nevromorph processing
+tagline : cand. sci., mathematical modeling
 description : John Erling Blad is an author at AI stuff.
-email : jeblad@gmail.com
-github : jeblad
-twitter : jeblad
-keybase : jeblad
-linkedin : jeblad
-wikimedia : jeblad
+info :
+  emails :
+    entries:
+      - '[jeblad@gmail.com](mailto:jeblad@gmail.com)'
+  handles :
+    entries:
+      - '[Apertium](http://wiki.apertium.org/wiki/User:Jeblad)'
+      - '[Farmasihistorie](http://farmasihistorie.com/w/index.php?title=Bruker:Jeblad)'
+      - '[Github](https://github.com/jeblad)'
+      - '[Gravatar](http://en.gravatar.com/jeblad)'
+      - '[Keybase](https://keybase.io/jeblad)'
+      - '[Kunsthistorie](http://kunsthistorie.com/fagwiki/Bruker:Jeblad)'
+      - '[LinkedIn](https://www.linkedin.com/in/jeblad/)'
+      - '[Origo](http://origo.no/-/user/show_external/276763)'
+      - '[Translatewiki](https://translatewiki.net/wiki/User:Jeblad)'
+      - '[Trello](https://trello.com/jeblad)'
+      - '[Twitter](https://twitter.com/jeblad)'
+      - '[Wikimedia](https://meta.wikimedia.org/wiki/User:Jeblad)'
+      - '[Wikitech](https://wikitech.wikimedia.org/wiki/User:John_Erling_Blad)'
 ---
 
 I am a computer scientist, with a cand. sci. in mathematical modeling of analog processors
