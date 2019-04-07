@@ -6,14 +6,20 @@
 }
 .metadata {
 	float: right;
-	margin-left: 1em;
-	/*font-size:87%;*/
+	margin-left: 2em;
 }
-.metadata th {
-	text-align: right;
+.metadata .header {
+	font-weight: 600;
 }
-.metadata td {
-	text-align: left;
+.metadata .header:first-letter {
+	text-transform: uppercase;
+}
+.metadata ul {
+	padding-left: 1em;
+	list-style: square;
+}
+.metadata li p {
+	margin: 0;
 }
 .leading li > *:first-child {
 	font-weight: bold;
