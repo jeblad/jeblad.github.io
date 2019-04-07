@@ -4,6 +4,7 @@ name : John Erling Blad
 title : John E. Blad
 tagline : cand. sci., mathematical modeling
 description : John Erling Blad is an author at AI stuff.
+avatar: jeblad
 info :
   emails :
     entries:
