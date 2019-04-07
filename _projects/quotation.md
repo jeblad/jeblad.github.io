@@ -2,10 +2,10 @@
 layout : project
 title: Quotation
 tagline: checking quotes in Wikipedia
-repos :
+info :
   github :
-    url : https://github.com/jeblad/Quotation
-    title : Github
+    entries :
+      - '[repo](https://github.com/jeblad/Quotation)'
 description : Mediawiki extension providing a framework for checking quotes in a wiki.
 ---
 

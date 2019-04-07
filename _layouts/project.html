@@ -5,26 +5,7 @@ use_math : exclude
 
 <h2>{{ page.tagline }}</h2>
 
-<table class="metadata">
-{% if page.repos %}
-{% for repo in page.repos %}
-	{% if repo[1].url %}
-	<tr><th>Repository:</th><td><a href="{{ repo[1].url }}">{{ repo[1].title | default: repo[0] }}</a></td></tr>
-	{% else %}
-	<tr><th>Repository:</th><td><span>{{ repo[1].title | default: repo[0] }}</span></td></tr>
-	{% endif %}
-{% endfor %}
-{% endif %}
-{% if page.docs %}
-{% for doc in page.docs %}
-	{% if doc[1].url %}
-	<tr><th>Documentation:</th><td><a href="{{ doc[1].url | absolute_url }}">{{ doc[1].title | default: doc[0] }}</a></td></tr>
-	{% else %}
-	<tr><th>Documentation:</th><td><span>{{ doc[1].title | default: doc[0] }}</span></td></tr>
-	{% endif %}
-{% endfor %}
-{% endif %}
-</table>
+{% include info.html %}
 
 {{ content }}
 

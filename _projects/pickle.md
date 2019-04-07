@@ -2,14 +2,11 @@
 layout : project
 title: Pickle
 tagline: a Lua testing framework for Mediawiki
-docs :
-  ldoc :
-    url : Pickle/mw.pickle.html
-    title : Ldoc
-repos :
+info :
   github :
-    url : https://github.com/jeblad/Pickle
-    title : Github
+    entries :
+    - '[repo](https://github.com/jeblad/Pickle)'
+    - '[ldoc](/Pickle/mw.pickle.html)'
 description : 'Mediawiki extension providing a testing framework for the Lua programming language.'
 ---
 

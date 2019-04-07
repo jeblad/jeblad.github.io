@@ -2,14 +2,11 @@
 layout : project
 title: TemplateData
 tagline: integration of template data with Lua
-docs :
-  ldoc :
-    url : TemplateData/mw.templatedata.html
-    title : Ldoc
-repos :
+info :
   github :
-    url : https://github.com/jeblad/TemplateData
-    title : Github
+    entries :
+      - '[ldoc](TemplateData/mw.templatedata.html)'
+      - '[repo](https://github.com/jeblad/TemplateData)'
 description : Mediawiki extension to export TemplateData and make it available to Lua modules.
 ---
 

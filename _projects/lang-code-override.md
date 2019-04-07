@@ -2,10 +2,10 @@
 layout : project
 title: LangCodeOverride
 tagline: override language codes in a wikifarm
-repos :
+info :
   github :
-    url : https://github.com/jeblad/LangCodeOverride
-    title : Github
+    entries :
+      - '[repo](https://github.com/jeblad/LangCodeOverride)'
 description : Mediawiki extension to override language codes in a wiki farm.
 ---
 

@@ -2,14 +2,11 @@
 layout : project
 title: Inference
 tagline: an inference engine for Wikibase
-docs :
-  ldoc :
-    url : Inference/mw.inference.html
-    title : Ldoc
-repos :
+info :
   github :
-    url : https://github.com/jeblad/Inference
-    title : Github
+    entries :
+      - '[repo](https://github.com/jeblad/Inference)'
+      - '[ldoc](/Inference/mw.inference.html)'
 description : Mediawiki extension to filter down semantic data from a Wikibase repo and make it available to Lua modules.
 ---
 
