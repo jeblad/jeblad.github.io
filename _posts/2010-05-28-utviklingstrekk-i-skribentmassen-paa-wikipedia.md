@@ -16,7 +16,7 @@ Enkle analyser indikerer at det kan finnes en internasjonal «dugnadskonstant» 
 
 <!--more-->
 
-_Denne artikkelen var først publisert på [Nettdugnad](http://nettdugnad.origo.no/-/bulletin/show/573838_utviklingstrekk-i-skribentmassen-paa-wikipedia)._
+{% include nettdugnad.html source='http://nettdugnad.origo.no/-/bulletin/show/573838_utviklingstrekk-i-skribentmassen-paa-wikipedia' %}
 
 Det har kommet mange påstander om hvordan brukermassen utvikler seg på Wikipedia og da spesielt den delen som gjelder de aktive skribentene. Disse er sentrale for å opprettholde veksten og kvaliteten på Wikipedia. Hvis det finnes begrensende faktorer som påvirker disse så har det betydning både for fremtidig utvikling og for hva slags prosjekter som fungerer.
 

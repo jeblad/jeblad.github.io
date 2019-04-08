@@ -16,7 +16,7 @@ De fleste som er litt aktive på tekniske sider på nettet har nok fått med seg
 
 <!--more-->
 
-_Denne artikkelen var først publisert på [Nettdugnad](http://nettdugnad.origo.no/-/bulletin/show/826336_veien-mot-lenka-aapne-data)._
+{% include nettdugnad.html source='http://nettdugnad.origo.no/-/bulletin/show/826336_veien-mot-lenka-aapne-data' %}
 
 ### eXtensible Markup Language
 
