@@ -1,11 +1,15 @@
 ---
-layout : post
-language : nb
+layout: post
+language: nb
 date: 2014-03-14 22:00:00 (CET)
-title : Veien mot lenka åpne data
-tagline : semantiske data the web way
+title: Veien mot lenka åpne data
+tagline: semantiske data the web way
+description: En gjennomgang av hvordan og hvorfor en bør bruke lenkede semantiske data, og noen tips for å gjøre dette enklest mulig. 
+authors:
+  - '[John Erling Blad](/authors/jeblad/)'
 categories : semantiske data
-tags : Wikipedia, Wikidata, linked data, open data, semantic web
+tags: Wikipedia, Wikidata, linked data, open data, semantic web
+license: cc-by-sa
 ---
 
 De fleste som er litt aktive på tekniske sider på nettet har nok fått med seg frasene [åpne data](https://en.wikipedia.org/wiki/Open_data) og [lenkede data](https://en.wikipedia.org/wiki/Linked_data), og kanskje også [semantisk web](https://en.wikipedia.org/wiki/Semantic_Web). Disse begrepene er sentrale i en stille revolusjon på nettet. Data som før levde «inni» maskiner og kun ble gjort tilgjengelig i en tekstgraut blir nå gjort tilgjengelig på et vis som er velstrukturert og gjenbrukbart. Hvem er involvert og hvordan skjer dette?
