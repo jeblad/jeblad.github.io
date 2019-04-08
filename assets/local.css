@@ -118,11 +118,17 @@ h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 	color: #757575;
 	font-weight:500;
 }
-.mdl-layout-title:link,
-.mdl-layout-title:hover,
-.mdl-layout-title:active,
+.mdl-layout-title:link {
+	color: red;
+}
+.mdl-layout-title:hover {
+	color: green;
+}
+.mdl-layout-title:active {
+	color: blue;
+}
 .mdl-layout-title:visited {
-	color: #757575;
+	color: yellow;
 }
 .mdl-layout__drawer > .mdl-layout-title:hover {
 	background-color: #e0e0e0;
