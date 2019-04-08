@@ -2,7 +2,7 @@
 layout : post
 language : nb
 date: 2010-05-28 01:00:00 (CET)
-title : Antall skribenter på Wikipedia
+title : Utviklingstrekk på Wikipedia
 tagline : finnes det en «dugnadskonstant»?
 description: En enkel analyse for å vise at det kan finnes en «dugnadskonstant» som påvirker hvor mange som involverer seg i nettbaserte dugnader.
 authors:
@@ -15,6 +15,8 @@ license: cc-by-sa
 Enkle analyser indikerer at det kan finnes en internasjonal «dugnadskonstant» som slår gjennom brukermassen til nettleksikonet. Slike dugnadskonstanter vil sette en nedre grense for hvor små språkene kan være om de skal danne fungerende nettsamfunn som produserer leksikon. Språkene vil ikke ha tilstrekkelig mange brukere som kan gå inn i rollen som skribenter, noe som igjen setter en grense for når det oppstår et nettsamfunn med tilstrekkelig produksjonskapasitet.
 
 <!--more-->
+
+_Denne artikkelen var først publisert på [Nettdugnad](http://nettdugnad.origo.no/-/bulletin/show/573838_utviklingstrekk-i-skribentmassen-paa-wikipedia)._
 
 Det har kommet mange påstander om hvordan brukermassen utvikler seg på Wikipedia og da spesielt den delen som gjelder de aktive skribentene. Disse er sentrale for å opprettholde veksten og kvaliteten på Wikipedia. Hvis det finnes begrensende faktorer som påvirker disse så har det betydning både for fremtidig utvikling og for hva slags prosjekter som fungerer.
 
