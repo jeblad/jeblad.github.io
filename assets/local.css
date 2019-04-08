@@ -130,6 +130,6 @@ h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 .mdl-layout-title:visited {
 	color: yellow;
 }
-.mdl-layout__drawer > .mdl-layout-title:hover {
+.mdl-layout-title:hover {
 	background-color: #e0e0e0;
 }
