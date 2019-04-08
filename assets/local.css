@@ -118,19 +118,19 @@ h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 	color: #757575;
 	font-weight:500;
 }
-.mdl-layout-title:link {
+.mdl-layout__drawer > .mdl-layout-title:link {
 	color: red;
-	background-color: #e0e0e0;
+	background-color: #fafafa !important;
 }
-.mdl-layout-title:hover {
+.mdl-layout__drawer > .mdl-layout-title:hover {
 	color: green;
-	background-color: #fafafa;
+	background-color: #e0e0e0 !important;
 }
-.mdl-layout-title:active {
+.mdl-layout__drawer > .mdl-layout-title:active {
 	color: blue;
-	background-color: #e0e0e0;
+	background-color: #fafafa !important;
 }
-.mdl-layout-title:visited {
+.mdl-layout__drawer > .mdl-layout-title:visited {
 	color: yellow;
-	background-color: #e0e0e0;
+	background-color: #fafafa !important;
 }
