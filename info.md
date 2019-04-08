@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Info
+permalink: /info/
 use_math: exclude
 weight: 999
 ---
