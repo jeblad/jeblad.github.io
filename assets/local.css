@@ -87,10 +87,10 @@ h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 .mdl-navigation a.is-active[href*=\/home\/] { background-image: url(/assets/icons/home-active.svg); }
 .mdl-navigation a[href*=\/info\/] { background-image: url(/assets/icons/info.svg); }
 .mdl-navigation a.is-active[href*=\/info\/] { background-image: url(/assets/icons/info-active.svg); }
-.mdl-navigation a[href*=\/authors\/] { background-image: url(/assets/icons/about.svg); }
-.mdl-navigation a.is-active[href*=\/authors\/] { background-image: url(/assets/icons/about-active.svg); }
-.mdl-navigation a[href*=\/projects\/] { background-image: url(/assets/icons/new-cloud.svg); }
-.mdl-navigation a.is-active[href*=\/projects\/] { background-image: url(/assets/icons/cloud-active.svg); }
+.mdl-navigation a[href*=\/authors\/] { background-image: url(/assets/icons/authors.svg); }
+.mdl-navigation a.is-active[href*=\/authors\/] { background-image: url(/assets/icons/authors-active.svg); }
+.mdl-navigation a[href*=\/projects\/] { background-image: url(/assets/icons/projects.svg); }
+.mdl-navigation a.is-active[href*=\/projects\/] { background-image: url(/assets/icons/projects-active.svg); }
 #site-title {
 	font-size: 110%;
 }
