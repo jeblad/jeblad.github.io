@@ -48,6 +48,7 @@ h4 {
 }
 h2, h3, h4, h5, h6 {
 	color: rgba(32,32,32,0.87);
+	font-weight: 450;
 }
 h2 a, h3 a, h4 a, h5 a, h6 a,
 h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link {
@@ -56,12 +57,15 @@ h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link {
 }
 h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
 	color: rgba(48,48,48,0.67);
+	font-weight: inherit;
 }
 h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 	color: rgba(61,130,249,0.87);
+	font-weight: inherit;
 }
 h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 	color: rgba(61,130,249,0.67);
+	font-weight: inherit;
 }
 .authors {
 	margin-bottom: 0.5em;
@@ -72,8 +76,12 @@ h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 .date {
 	margin-bottom: 0.5em;
 }
+.authors + p,
+.date + p {
+	margin-top: 1em;
+}
 .excerpt {
-	margin-top: 1.0em;
+	margin-top: 2.0em;
 }
 .excerpt + h2 {
 	margin-top: 0;
