@@ -118,6 +118,7 @@ h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 	color: #757575;
 	font-weight:500;
 }
+/*
 .mdl-layout__drawer > .mdl-layout-title:link {
 	color: red;
 	background-color: #fafafa !important;
@@ -134,3 +135,4 @@ h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 	color: yellow;
 	background-color: #fafafa !important;
 }
+*/
