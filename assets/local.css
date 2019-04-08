@@ -120,16 +120,17 @@ h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 }
 .mdl-layout-title:link {
 	color: red;
+	background-color: #e0e0e0;
 }
 .mdl-layout-title:hover {
 	color: green;
+	background-color: #fafafa;
 }
 .mdl-layout-title:active {
 	color: blue;
+	background-color: #e0e0e0;
 }
 .mdl-layout-title:visited {
 	color: yellow;
-}
-.mdl-layout-title:hover {
 	background-color: #e0e0e0;
 }
