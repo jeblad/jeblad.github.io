@@ -63,6 +63,21 @@ h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 	color: rgba(61,130,249,0.67);
 }
+.authors {
+	margin-bottom: 0.5em;
+}
+.authors p {
+	margin: 0;
+}
+.date {
+	margin-bottom: 0.5em;
+}
+.excerpt {
+	margin-top: 1.0em;
+}
+.excerpt + h2 {
+	margin-top: 0;
+}
 .mdl-navigation a.parent {
 	background-position: center left 20px;
 	background-repeat: no-repeat;
@@ -70,9 +85,11 @@ h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 }
 .mdl-navigation a[href*=\/home\/] { background-image: url(/assets/icons/home.svg); }
 .mdl-navigation a.is-active[href*=\/home\/] { background-image: url(/assets/icons/home-active.svg); }
-.mdl-navigation a[href*=\/about\/] { background-image: url(/assets/icons/about.svg); }
-.mdl-navigation a.is-active[href*=about] { background-image: url(/assets/icons/about-active.svg); }
-.mdl-navigation a[href*=\/projects\/] { background-image: url(/assets/icons/cloud.svg); }
+.mdl-navigation a[href*=\/info\/] { background-image: url(/assets/icons/info.svg); }
+.mdl-navigation a.is-active[href*=\/info\/] { background-image: url(/assets/icons/info-active.svg); }
+.mdl-navigation a[href*=\/authors\/] { background-image: url(/assets/icons/about.svg); }
+.mdl-navigation a.is-active[href*=\/authors\/] { background-image: url(/assets/icons/about-active.svg); }
+.mdl-navigation a[href*=\/projects\/] { background-image: url(/assets/icons/new-cloud.svg); }
 .mdl-navigation a.is-active[href*=\/projects\/] { background-image: url(/assets/icons/cloud-active.svg); }
 #site-title {
 	font-size: 110%;
