@@ -1,20 +1,14 @@
-{% include is_production.html %}
-
-{% if is_production and site.analytics.provider and page.analytics != false %}
-
 {% case site.analytics.provider %}
 {% when "gauges" %}
-  {% include analytics/gauges %}
+  {% include analytics/gauges.html %}
 {% when "google" %}
-  {% include analytics/google %}
+  {% include analytics/google.html %}
 {% when "getclicky" %}
-  {% include analytics/getclicky %}
+  {% include analytics/getclicky.html %}
 {% when "mixpanel" %}
-  {% include analytics/mixpanel %}
+  {% include analytics/mixpanel.html %}
 {% when "piwik" %}
-  {% include analytics/piwik %}
+  {% include analytics/piwik.html %}
 {% when "custom" %}
-  {% include custom/analytics %}
+  {% include custom/analytics.html %}
 {% endcase %}
-
-{% endif %}
