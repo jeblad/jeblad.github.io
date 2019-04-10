@@ -1,3 +1,7 @@
+{% include is_production.html %}
+
+{% if is_production and site.analytics.provider and page.analytics != false %}
+
 {% case site.analytics.provider %}
 {% when "gauges" %}
   {% include analytics/gauges.html %}
@@ -12,3 +16,5 @@
 {% when "custom" %}
   {% include custom/analytics.html %}
 {% endcase %}
+
+{% endif %}
