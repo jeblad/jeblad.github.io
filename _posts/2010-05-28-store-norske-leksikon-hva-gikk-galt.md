@@ -16,7 +16,7 @@ Leksikondebatten ble i en periode veldig pompøs og nasjonalistisk. Debattanter 
 
 <!--more-->
 
-{% include nettdugnad.html source='http://nettdugnad.origo.no/-/bulletin/show/826336_veien-mot-lenka-aapne-data' %}
+{% include nettdugnad.html source='http://nettdugnad.origo.no/-/bulletin/show/574046_store-norske-leksikon-hva-gikk-galt' %}
 
 ### For sent og for dårlig
 
