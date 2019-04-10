@@ -4,10 +4,10 @@ language: nb
 date: 2010-05-28 20:00:00 (CET)
 title: Store norske leksikon
 tagline: hva gikk galt?
-description: Sett utenfra, hva gikk galt med Store norske leksikon når de opererte i sin lukkede utgave. 
+description: Sett utenfra, hva gikk galt med Store norske leksikon når de opererte sin tidligere lukkede utgave. 
 authors:
   - '[John Erling Blad](/authors/jeblad/)'
-categories :  encyklopedia
+categories : encyklopedia
 tags: Store norske leksikon, fritt ord, kunnskapsforlaget, monopol statsstøtte
 license: cc-by-sa
 ---
