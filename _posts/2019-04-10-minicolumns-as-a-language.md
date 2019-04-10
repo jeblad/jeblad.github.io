@@ -1,5 +1,7 @@
 ---
 layout: post
+language: en
+date: 2019-04-10 03:20:00 (CET)
 category : neural nets
 title: Minicolumns as a language
 tagline: the strange similarities
