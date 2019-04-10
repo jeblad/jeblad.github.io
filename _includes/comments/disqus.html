@@ -10,17 +10,7 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
 };
 */
 
-{% include is_production.html %}
 
-{% if is_production == false %}
-var disqus_developer = 1;
-{% endif %}
-
-var disqus_shortname = '{{ site.comments.disqus.short_name }}';
-
-{% if page.wordpress_id %}
-var disqus_identifier = '{{page.wordpress_id}} {{site.production_url}}/?p={{page.wordpress_id}}';
-{% endif %}
 
 (function() {
     var dsq = document.createElement('script');
