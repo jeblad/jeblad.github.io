@@ -73,7 +73,7 @@ comments :
 analytics :
   provider : google
   google : 
-      tracking_id : 'UA-16810698-4'
+      tracking_id : 'UA-138139619-1'
 
 # Excerpt
 excerpt_separator: <!--more-->
