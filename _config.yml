@@ -66,6 +66,15 @@ comments :
   disqus :
     short_name : jeblad
 
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#        
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-16810698-4'
+
 # Excerpt
 excerpt_separator: <!--more-->
 

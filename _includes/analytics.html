@@ -1,0 +1,20 @@
+{% include is_production.html %}
+
+{% if is_production and site.analytics.provider and page.analytics != false %}
+
+{% case site.analytics.provider %}
+{% when "gauges" %}
+  {% include analytics/gauges %}
+{% when "google" %}
+  {% include analytics/google %}
+{% when "getclicky" %}
+  {% include analytics/getclicky %}
+{% when "mixpanel" %}
+  {% include analytics/mixpanel %}
+{% when "piwik" %}
+  {% include analytics/piwik %}
+{% when "custom" %}
+  {% include custom/analytics %}
+{% endcase %}
+
+{% endif %}
