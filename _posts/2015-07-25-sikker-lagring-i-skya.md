@@ -16,6 +16,8 @@ Etter å ha skrevet på kode for [fillagring i nettskya](https://en.wikipedia.or
 
 <!--more-->
 
+{% include nettdugnad.html source='http://nettdugnad.origo.no/-/bulletin/show/803826_sikker-lagring-i-skya' %}
+
 Foranledningen til at undertegnede ble sittende å klø seg i hodet (jeg gjør ofte det) var at han (det vil si jeg) skrev på en løsning for å lage et versjonert fillager som enkelt kunne settes opp som repository for [File Explorer](https://en.wikipedia.org/wiki/File_Explorer) i Windows. File Explorer er filutforskeren til forskjell fra [Internett Explorer](https://en.wikipedia.org/wiki/Internet_Explorer) som er nettleseren du bruker på nettet.
 
 Dette repoet fungerte omtrent slik mange er blitt vant med fra andre tjenester slik som Google Drive og Drop Box. En laster opp en fil til serveren og der beholdes det en eksakt kopi som er fullt lesbar bare en har de nødvendige credentials. Det betyr for eksempel at alle med tilgang til serveren kan se dine gamle bilder av mormor og farfar med lille gullungen, og også alle bildene du tok på Ibiza når du var utro. Det første er ikke så ille, men det siste kan bli et skikkelig «auda».
