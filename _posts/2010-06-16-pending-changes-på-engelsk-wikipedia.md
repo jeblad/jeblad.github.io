@@ -34,7 +34,7 @@ Selv om løsningen er veldig enkel så er det vist i analyser at levetiden til v
 
 ### Patruljering og kvalitet
 
-Patruljering vil ikke øke kvaliteten på stoff som legges inn i Wikipeda, men den vil fjerne vandalisering av eksisterende materiale. Ved at vandalisering blir redusert så vil den observerte kvaliteten på det gjenstående stoffet tilsynelatende bli bedre.
+Patruljering vil ikke øke kvaliteten på stoff som legges inn i Wikipedia, men den vil fjerne vandalisering av eksisterende materiale. Ved at vandalisering blir redusert så vil den observerte kvaliteten på det gjenstående stoffet tilsynelatende bli bedre.
 
 Det er også en annen indirekte effekt som kommer som følge av pending changes som påvirker kvaliteten; når en artikkel blir låst slik at direkte bidrag blir blokkert så stopper ikke bare vandalisme, men også alle gode bidrag. Artikkelens utvikling fryses eller begrenses alvorlig. Ved å bruke pending changes så kan skribenter fortsette å bidra på problemartikler, dermed fortsetter de å vokse og utvikle seg.
 
