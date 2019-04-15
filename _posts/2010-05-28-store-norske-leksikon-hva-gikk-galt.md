@@ -8,7 +8,7 @@ description: Sett utenfra, hva gikk galt med Store norske leksikon når de opere
 authors:
   - '[John Erling Blad](/authors/jeblad/)'
 categories : encyklopedia
-tags: Store norske leksikon, fritt ord, kunnskapsforlaget, monopol statsstøtte
+tags: Store norske leksikon, Fritt ord, Kunnskapsforlaget, monopol statsstøtte
 license: cc-by-sa
 ---
 
@@ -30,7 +30,7 @@ Wikipedia sin produksjonsmodell er [crowdsourcing](http://no.wikipedia.org/wiki/
 
 Analyser av Wikipedia ([Utviklingstrekk i skribentmassen på Wikipedia](http://nettdugnad.origo.no/-/bulletin/show/573838_utviklingstrekk-i-skribentmassen-paa-wikipedia)) viser at det finnes noen begrensende faktorer. Ved å stille økte økte formelle krav til bidragsyterne, både faglig og som del av selve bidragsprosessen, så faller antall mulige bidragsytere. Likevel så er det største problemet at eksistensen av fagredaktører i seg selv begrenser antall bidragsytere, hvorfor skal noen skrive artikler når det allerede finnes en etablert fagredaktør som har dette ansvaret? Dørstokken bidragsyteren må over blir for stor.
 
-### Sammenslåingen av flere oppslagsver er kaotisk
+### Sammenslåing av flere oppslagsverk er kaotisk
 
 Det var kanskje en god ting å inkludere [Norsk biografisk leksikon](http://no.wikipedia.org/wiki/Norsk_biografisk_leksikon) og [Store medisinske leksikon](http://no.wikipedia.org/wiki/Store_medisinske_leksikon) i totalproduktet, men om det var en god profilering av disse to verkene er mer uklart. Om man skal overleve, må Store norske leksikon kobles sammen med andre oppslagsverk og kilder, også leksikon på andre språk. Et produkt på nett lever ikke i isolasjon, da kan det like gjerne leveres på CD eller annet fysisk medium. Et produkt på nett lever i egenskap av å være forbundet med andre informasjonsbærende nettverk. Fordi de tre verkene nå fremstår som tre adskilte miljøer, med samtidig treff i alle tre og noen ganger også med tre mer eller mindre identiske artikler, så blir totalinntrykket rotete. Kanskje ville det vært bedre å ha tre mer distinkte oppslagsverk og så lenke mellom dem.
 
@@ -58,7 +58,7 @@ Det er to lisenser i bruk på Store norske leksikon, en som baserer seg på trad
 
 Dette er nok et punkt hvor brukere av Wikipedia er mye mer politisk beviste enn de involverte i Store norske leksikon. Når sentrale personer i Store norske leksikon uttaler at det er uaktuelt og slippe andre til på artikler, samtidig som de bruker en lisens de kaller «fri» og som skal være lik det som brukes i Wikipedia, så er noe fundamentalt galt. Det er ikke slik lisenser fungerer i åpne prosjekter. Dette er med på å forvirre brukerne og skaper skepsis i markedet. Lisensen til Wikipedia er [Creative Commons Navngivelse-Del på samme vilkår 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0/deed.no) med presiseringer i [bruksvilkårene](http://no.wikipedia.org/wiki/Wikipedia:Opphavsrett).
 
-Det vil høyst sannsynlig være bedre å vise til [Åndsverkloven](http://no.wikipedia.org/wiki/%C3%85ndsverkloven) og si at de som vil gjenbruke materiale kan gjøre dette innenfor gitte grenser, går de utenfor disse må de spørre om tillatelse. Den frie lisensen slik den nå er formulert sier at alle kan bruke materialet som er merket med «fri», inklusive Wikipedia. Den er heller ikke mulig å trekke tilbake for de artikler som er publisert med den, for dette er også en del av lisensieringen på Wikipedia -- og artiklene skulle jo kunne brukes på samme vis sier lisensen.
+Det vil høyst sannsynlig være bedre å vise til [åndsverkloven](http://no.wikipedia.org/wiki/%C3%85ndsverkloven) og si at de som vil gjenbruke materiale kan gjøre dette innenfor gitte grenser, går de utenfor disse må de spørre om tillatelse. Den frie lisensen slik den nå er formulert sier at alle kan bruke materialet som er merket med «fri», inklusive Wikipedia. Den er heller ikke mulig å trekke tilbake for de artikler som er publisert med den, for dette er også en del av lisensieringen på Wikipedia -- og artiklene skulle jo kunne brukes på samme vis sier lisensen.
 
 ### Hjernestorm
 
@@ -70,7 +70,7 @@ Sett inn lenker som kobler sammen artiklene internt. Har dere for liten arbeidsk
 
 Kategorisering er et vanskelig felt, men det finnes en del løsninger for automatisk kategorisering. Disse verktøyene vil garantert feile titt og ofte, men de vil kategorisere rett tilstrekkelig ofte til at det er en kjempestor hjelp for forfatterne. Nå er leksikonet bare en enormt diger og ugjennomtrengelig masse. På Wikipedia snakkes det om nye og spennende måter å navigere i kategorisert informasjon. I Store norske leksikon finnes ikke noe slikt overhodet.
 
-Sett inn illustrasjoner, det øker informasjonsinnholdet i artiklene. Det skal finnes illustrasjoner, mend et er relativt få av dem. På Wikipedia er det automatiserte boter som forenkler gjenbruk av illustrasjoner som noen har satt inn på en artikkel på et annet språk. Kanskje Store norske leksikon burde få til et samarbeid med noen av de som sitter på store billedbaser? Aktuelle aktører er [Scanpix](http://www.scanpix.no), [Flikr](http://www.flickr.com) og [Wikimedia Commons](http://commons.wikimedia.org).
+Sett inn illustrasjoner, det øker informasjonsinnholdet i artiklene. Det skal finnes illustrasjoner, mend et er relativt få av dem. På Wikipedia er det automatiserte boter som forenkler gjenbruk av illustrasjoner som noen har satt inn på en artikkel på et annet språk. Kanskje Store norske leksikon burde få til et samarbeid med noen av de som sitter på store billedbaser? Aktuelle aktører er [Scanpix](http://www.scanpix.no), [Flickr](http://www.flickr.com) og [Wikimedia Commons](http://commons.wikimedia.org).
 
 Synlighet på nett er mer enn bare å bli indeksert av Google. Når Google gir en nettside ranking så er det antall innkommende lenker som er avgjørende. Det bringer opp spørsmålet om hvorfor noen skal lenke til Store norske leksikon. Sett dere i brukerens posisjon; er det en teknisk artikkel så har helt sikkert engelsk Wikipedia en større artikkel, er det en geografisk artikkel om vestlandet så er nynorsk Wikipedia på (ehm) nynorsk og har en kjempefordel, er det en artikkel om samtidshistorie så er garantert artikkelen på bokmålsutgaven bedre. Journalister vil ikke bruke leksikon om de ikke er nødt, og de elsker Wikipedia uansett om redaktørene denger dem i hue med 18 bind av Store norske leksikon. Hvilke brukere ønsker å bruke Store norske leksikon på et slikt vis at de gir lenker til dem på nett? Og hva slags innhold har Store norske leksikon som tilfredsstiller disses behov? Undervisningssektoren innenfor vitenskapelige disipliner (de kan definere entydig sannhet) og humaniora (de kan deklarere sannhet) kan være en mulig målgruppe, så får en se om studentene følger med fra Wikipedia og til Store norske leksikon.
 
