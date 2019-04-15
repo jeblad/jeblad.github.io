@@ -21,7 +21,8 @@ Under en diskusjon om e-faktura for noen år siden ble det påpekt at det størs
 Problemet og løsningen er basert på relativt enkle og velkjente tekniske løsninger. De er ikke begrenset til noen bestemt teknologi, og som det vises i artikkelen så fungerer det med en ordinær papirkvittering som felles medium.
 
 ### Bakgrunn
-Problemet vi står ovenfor er ikke helt trivielt, men likevel nokså enkelt. Noen går i en butikk for å kjøpe noe, ofte er personen helt anonym for butikken, og på et senere tidspunkt skal informasjon fra dette kjøpet inn i et regnskapssystem. Som oftest er det eneste som er felles selve kvitteringen, men denne har ikke plass til all informasjon vi ønsker om kjøpet samtidig som vi helst ikke vil punsje for mange tall og koder. Det gjør at all nødvendig informasjon fra kjøpet må overføres via kvitteringen, og på noe vis må denne gjøres «elektronisk», men samtidig sikker nok til at ikke andre kan hente ut informasjon om kjøp og salg på illegitimt vis.
+
+Problemet vi står ovenfor er ikke helt trivielt, men likevel nokså enkelt. Noen går i en butikk for å kjøpe noe, ofte er personen helt anonym for butikken, og på et senere tidspunkt skal informasjon fra dette kjøpet inn i et regnskapssystem. Som oftest er det eneste som er felles selve kvitteringen, men denne har ikke plass til all informasjon vi ønsker om kjøpet samtidig som vi helst ikke vil punche for mange tall og koder. Det gjør at all nødvendig informasjon fra kjøpet må overføres via kvitteringen, og på noe vis må denne gjøres «elektronisk», men samtidig sikker nok til at ikke andre kan hente ut informasjon om kjøp og salg på illegitimt vis.
 
 Omformulert så kan vi si at vi ønsker å skape forutsetninger for å kunne bruke kassalappen for [autorisasjon](http://en.wikipedia.org/wiki/Authorization) av tilgang til en fullstendig spesifisert kvittering, vi ønsker [autentisering](http://en.wikipedia.org/wiki/Authentication) av kassalappen samtidig som vi ikke vil at den skal kunne brukes for [identifisering](http://en.wikipedia.org/wiki/Identification_%28information%29) av kunden. Autorisasjon skjer ved at kassalappen blir et ihendehaverdokument, uten at den inneholder noen identifiserende opplysninger. Ytterligere identifisering og informasjonslekkasje må vi unngå fordi det ikke er gitt at de som senere får tilgang til kassalappen skal ha informasjon om kunden.
 
@@ -29,9 +30,10 @@ Vi ønsker heller ikke å lage ekstra elektroniske dingser som inkluderer [RFID-
 
 Mange har stiftet kjennskap med en liten sak på mobilene for å overføre informasjon om kontakter fra en mobil til en annen, såkalte [vCard](http://en.wikipedia.org/wiki/VCard). Dette er spesielt formaterte tekstmeldinger som inneholder en serie identifiserte felt. En avsender formaterer en slik melding og mottakeren kan så dekode den.
 
-Hva mer er, slike vCard kan kodes inn i 2-dimmensjonale maskinlesbare grafiske koder slik som [QR-koder](http://en.wikipedia.org/wiki/QR_code). Dette er interessant fordi den nødvendige infrastrukturen for å produsere kodene allerede finnes, faktisk er det slik at svært mange kvitteringer allerede har maskinlesbare [bar-koder](http://en.wikipedia.org/wiki/Barcode).
+Hva mer er, slike vCard kan kodes inn i 2-dimensjonale maskinlesbare grafiske koder slik som [QR-koder](http://en.wikipedia.org/wiki/QR_code). Dette er interessant fordi den nødvendige infrastrukturen for å produsere kodene allerede finnes, faktisk er det slik at svært mange kvitteringer allerede har maskinlesbare [bar-koder](http://en.wikipedia.org/wiki/Barcode).
 
 ### e-kvittering
+
 Anta nå at vi utvider standarden for vCard, den er egentlig laget for å identifisere en person, organisasjon eller bedrift, slik at den kan identifisere en spesifikk kvittering. I praksis utvider vi standarden med ekstra identifikatorer for *TYPE*, *URL*, *kvitteringsnummer* (*UID*) og en hemmelig kode *SECRET*. Den siste skal vi komme tilbake til om litt. Det hele pakkes inn i feltet for *NOTE* som tilhører vCard-standarden.
 
 Litt forenklet så har vi da noe som kan minne om dette
@@ -53,6 +55,7 @@ Bildet til høyre viser eksempelet kodet som en helt legitim utgave av et QR-bil
 Merk at det også finnes andre måter å kode inn den nødvendige informasjonen for å få en slik løsning til å fungere.
 
 ### Selger
+
 Når butikken skriver ut kvitteringen så genererer kassa et tilfeldig og veldig stort tall. Slike tall blir gjerne omtalt som en [UUID](http://en.wikipedia.org/wiki/Universally_unique_identifier) eller [GUID](http://en.wikipedia.org/wiki/Globally_unique_identifier) og brukes idag til veldig mye som skal identifiseres. For eksempel brukes de til å identifisere harddisker i en PC. Vi bruker de til å identifisere en kvittering. Kassaapparatet sender så denne til butikkens server som oppretter en kvittering med denne identifikatoren. Hvis den allerede er i bruk så ber serveren kassa om å lage en ny, men som oftest vil det gå bra.
 
 Kassa forteller serveren alle opplysningene den har om varekjøpet eller varekjøpene og serveren lagrer dette under merkelappen den har blitt enig med kassa om å bruke. Denne merkelappen er den tidligere omtalte UUID/GUID, eller UID slik vi har skrevet i eksempelet.
@@ -64,6 +67,7 @@ Til slutt må vi ha en URL som kunden senere kan bruke for å hente ut informasj
 Alle disse dataene pakkes ned i en vCard og kodes som en QR-kode og trykkes på kvitteringen.
 
 ### Kjøper
+
 Vel hjemme eller på kontoret holdes kvitteringen opp foran et webkamera (eller mobilkamera) og med nødvendig programvare leses QR-koden og vCard-infoen dekodes. Når programvaren oppdager at det finnes tilleggsinformasjon i NOTE-feltet så går den til URL-feltet som angir serveren og ber om en oppkobling for å få overført alle lagrede data om kjøpet.
 
 Serveren lager nå et tilfeldig tall som sendes til kunden. Denne svarer med å kryptere tallet med den hemmelige nøkkelen som står skrevet på kvitteringen, og fordi denne er scannet og tilgjengelig i programvaren så kan programmet svare serveren med det dekrypterte tallet uten å involvere kunden overhodet. Serveren på sin side sammenligner med sin egen kopi av det krypterte tallet og er de like så sendes den lagrede kvitteringen fra kjøpet til kunden.
@@ -73,6 +77,7 @@ Formatet på selve kvitteringen som går fra serveren til kunden er ikke lengre 
 Et problem er da at mange regnskapssystemer rett og slett ikke er innrettet på å håndtere elektronisk regnskapsunderlag.
 
 ### Sikkerhet
+
 For å redusere mulighetene for angrep på serveren så kan det legges til flere sikkerhetsmekanismer. Tallet som serveren lager kan settes opp slik at det kun er gyldig en begrenset tid, det kan settes inn ekstra bits som gjør at en enkelt kan beregne sjekksummer, det kan settes begrensinger på hvor mange utestående spørringer som kan finnes for en bestemt UID, og det kan legges til forsinkelser som skal overholdes. Slike begrensinger kan til sammen gjøre det svært vanskelig å gjøre metodiske angrep på en server i systemet.
 
 Merk at for UUID/GUID er det versjon 4 som skal brukes. Spesielt versjon 1 har en del problemer ved at identifikatoren drar med seg en del identifiserende informasjon for selgerstedet.
@@ -80,6 +85,7 @@ Merk at for UUID/GUID er det versjon 4 som skal brukes. Spesielt versjon 1 har e
 Merk også at kunden kan bli identifisert via IP-adressen han bruker når det hentes data fra serveren. I tillegg kan kunden spores ved alle de vanlige metodene for cookies og supercookies av forskjellig slag.
 
 ### Effektivisering
+
 For at noen skal få tak i underlaget for kjøpet er det en enkelt felles faktor; papirkvitteringen. Samtidig som det begrenser andres innsyn så gjør det også innsyn fra de som gjør bokettersyn langt enklere enn idag. En vil ikke lengre måtte ha fysisk tilgang til både salgssted og kjøpers regnskap for å gjennomføre en kontroll, det vil holde med tilgang til kjøpers regnskapsunderlag.
 
-Samtidig så er papirkvitteringen alt som trengs for å få tilgang til hele regnskapsunderlaget, og hele prosessen med å legge dette datagrunnlaget inn i regnskapssystemene er dermed tilstede. Hva mer er, dette gjør det mulig å lage enkle regnskapssystemer for personøkonomi som kjører som en mobilapp fordi behovet for punsjing av enkeltkjøp er borte -- det er jo bare å scanne QR-koden med mobilkameraet.
+Samtidig så er papirkvitteringen alt som trengs for å få tilgang til hele regnskapsunderlaget, og hele prosessen med å legge dette datagrunnlaget inn i regnskapssystemene er dermed tilstede. Hva mer er, dette gjør det mulig å lage enkle regnskapssystemer for personøkonomi som kjører som en mobilapp fordi behovet for punching av enkeltkjøp er borte -- det er jo bare å scanne QR-koden med mobilkameraet.
