@@ -46,7 +46,7 @@ NOTE:TYPE=receipt;URL=protocol://some.where.com;UID=num;SECRET=num
 END:VCARD
 ```
 
-![](/images/blank.png "output"){#el_14zu04ij_1kvj width="98" height="98"}[![](http://media1.origo.no/-/cache/image/2011070_h57a62ac55be2c85bb203_v1324221298_98x450.png "output"){.image .bordered_photo .right_aligned width="98" height="98"}](#)
+[![En QR-kode for maskinlesing; Denne lenker ut til et eksternt nettsted, som angitt i eksempelet.](/assets/images/receipt/receipt-qr-code_98x450.png "Lenke til kvitteringen i form av en QR-kode"){:.right_aligned width="98" height="98"}](/assets/images/receipt/receipt-qr-code_1024x1024.png)
 
 Dette vil bli dekodet som en helt legitim vCard for den imaginære butikken *REPA3000*, om enn med et vCard som har et noe merkelig tillegg. Dette tillegget er våre ekstra data som gjør det mulig å få til en e-kvittering, og som lar et enkelt tilleggsprogram effektivisere hele innhentingen av den fullstendige kvitteringen.
 
