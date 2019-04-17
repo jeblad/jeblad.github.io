@@ -48,6 +48,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-avatar
   - jekyll-figure
+
 # Favicons, etc
 logo : /assets/icons/logo-small.png
 
