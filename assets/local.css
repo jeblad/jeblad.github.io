@@ -86,11 +86,15 @@ h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 .excerpt + h2 {
 	margin-top: 0;
 }
-.mdl-navigation a.parent {
+.mdl-navigation a {
 	background-position: center left 20px;
 	background-repeat: no-repeat;
 	background-size: 28px 28px;
 }
+.mdl-navigation a { background-image: url(/assets/icons/child.svg); }
+.mdl-navigation a.is-active { background-image: url(/assets/icons/child-active.svg); }
+.mdl-navigation a.parent { background-image: url(/assets/icons/categories.svg); }
+.mdl-navigation a.parent.is-active { background-image: url(/assets/icons/categories-active.svg); }
 .mdl-navigation a[href*=\/home\/] { background-image: url(/assets/icons/home.svg); }
 .mdl-navigation a.is-active[href*=\/home\/] { background-image: url(/assets/icons/home-active.svg); }
 .mdl-navigation a[href*=\/info\/] { background-image: url(/assets/icons/info.svg); }
