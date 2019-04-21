@@ -6,7 +6,7 @@ use_math: exclude
 weight: 980
 ---
 
-The authors of this small site is listed below. They are not expected to be many, as this is not a collaborative site per see, but an ego trip by [jeblad](/authors/jeblad/). It was also made as an opportunity to check out some new software.
+The authors of this small site is listed below. They are not expected to be many, as this is not a collaborative site per see, but an ego trip by [jeblad](/authors/jeblad.html). It was also made as an opportunity to check out some new software.
 
 For further information, check the page for individual authors.
 
