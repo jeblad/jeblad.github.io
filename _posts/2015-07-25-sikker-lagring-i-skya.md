@@ -7,7 +7,8 @@ tagline: er sikker lagring mulig på usikre skytjenester?
 description: 
 authors:
   - '[John Erling Blad](/authors/jeblad/)'
-category: cloud storage
+categories:
+  - cloud storage
 tags: security
 license: cc-by-sa
 ---
@@ -54,7 +55,7 @@ Ved å splitte dataene så vil hver av blokkene vi lagrer være ufullstendig. De
 
 Når en stripe er lagret på serveren og den passerer en gitt alder så kan den automatisk bli merket som «gammel». Når det da blir lagret en ny stripe på samme UUID så blir den gamle lagret som en [sikkerhetskopi](https://en.wikipedia.org/wiki/Backup). Det samme kan skje om en tidligere stripe merkes manuelt som gammel. Etter slik automatisk eller manuell merking kan hele den eksterne disken rekonstrueres fra sikkerhetskopiene. Utdaterte sikkerhetskopier kan fjernes etter gitte regler, for eksempel hvis de er eldre enn ett år og det finnes nyere sikkerhetskopier.
 
-Største problemet vi vil støte på med en slik block-device er samtidig skrivetilagng. Noen filsystemer mellomlagrer (caches) aggressivt data for å kunne optimalisere lesing og skriving, og i disse tilfellene må vi slå av dette slik at vi er sikret at de leser oppdaterte blokker. Det vil også være en fordel om vi kan lage hooks inn i mekanismer for [file locking](https://en.wikipedia.org/wiki/File_locking), men ikke alle programmer bruker file locks. Risikoen er at to programmer forsøker å skrive til filer som begge bruker samme blokk. En mulig løsning i disse tilfellene er å bruke en diff mellom blokkene, men det kan være nokså risikabelt. Det er neppe noen god løsning å sette blokker til read-only da filer allerede kan være åpnet for skriving. En mulighet som ikke er så gal som den først synes er kun å tillate en klient å åpne filer for skriving om gangen, og forsinke andres åpning av samme fila inntil den eventuelt får en time-out.
+Største problemet vi vil støte på med en slik block-device er samtidig skrivetilgang. Noen filsystemer mellomlagrer (caches) aggressivt data for å kunne optimalisere lesing og skriving, og i disse tilfellene må vi slå av dette slik at vi er sikret at de leser oppdaterte blokker. Det vil også være en fordel om vi kan lage hooks inn i mekanismer for [file locking](https://en.wikipedia.org/wiki/File_locking), men ikke alle programmer bruker file locks. Risikoen er at to programmer forsøker å skrive til filer som begge bruker samme blokk. En mulig løsning i disse tilfellene er å bruke en diff mellom blokkene, men det kan være nokså risikabelt. Det er neppe noen god løsning å sette blokker til read-only da filer allerede kan være åpnet for skriving. En mulighet som ikke er så gal som den først synes er kun å tillate en klient å åpne filer for skriving om gangen, og forsinke andres åpning av samme fila inntil den eventuelt får en time-out.
 
 ### Oppsummering
 

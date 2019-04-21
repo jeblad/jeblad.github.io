@@ -2,13 +2,17 @@
 layout: post
 language: en
 date: 2019-04-10 03:20:00 (CET)
-category : neural nets
+categories:
+  - neural nets
 title: Minicolumns as a language
 tagline: the strange similarities
 tags : formal languages, minicolumn
+parent: "neural_net"
 description: A formal description of minicolumns as functions connecting an input domain to an output domain has striking similarities to formal semantics, and thus what we can do with a neural network.
 authors:
   - '[John Erling Blad](/authors/jeblad/)'
+sources:
+  - '[Norwegian Bokmål Wikipedia: Bruker:Jeblad/Minicolumns as a language](https://no.wikipedia.org/wiki/Bruker:Jeblad/Minicolumns_as_a_language)'
 license: cc-by-sa
 ---
 

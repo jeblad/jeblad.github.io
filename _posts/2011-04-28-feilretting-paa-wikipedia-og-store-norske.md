@@ -7,7 +7,9 @@ tagline: – feil overlever, hvordan motvirke det
 description: Feilretting i leksikon som Wikipedia og SNL drives av både vilje til å rette feil og hvorvidt feil er synlige.
 authors:
   - '[John Erling Blad](/authors/jeblad/)'
-category: news media
+categories:
+  - encyclopedia
+  - crowdsourcing
 tags: social media, wikipedia, social cost, quality assurance, document control, error correction, norsk nettleksikon, store norske leksikon
 license: cc-by-sa
 ---

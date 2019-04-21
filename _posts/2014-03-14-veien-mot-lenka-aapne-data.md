@@ -7,7 +7,9 @@ tagline: semantiske data the web way
 description: En gjennomgang av hvordan og hvorfor en bør bruke lenkede semantiske data, og noen tips for å gjøre dette enklest mulig.
 authors:
   - '[John Erling Blad](/authors/jeblad/)'
-categories : semantiske data
+categories :
+  - semantic web
+  - crowdsourcing
 tags: Wikipedia, Wikidata, linked data, open data, semantic web
 license: cc-by-sa
 ---
@@ -36,11 +38,10 @@ Det var også et par andre standarder som kom som gjorde det mulig å relatere d
 
 Nå begynner et mantra å få gjennomslag, «bruk URI-er som identifikatorer». Blant annet formulerer Tim Barners Lee dette i et notat om linked data [⁵](http://www.w3.org/DesignIssues/LinkedData.html) hvor han setter opp fire kriterier.
 
-1.  Use URIs as names for things
-2.  Use HTTP URIs so that people can look up those names.
-3.  When someone looks up a URI, provide useful information,
-    using the standards (RDF\*, SPARQL)
-4.  Include links to other URIs, so that they can discover more things.
+1. Use URIs as names for things
+2. Use HTTP URIs so that people can look up those names.
+3. When someone looks up a URI, provide useful information, using the standards (RDF\*, SPARQL)
+4. Include links to other URIs, so that they can discover more things.
 
 Tilsammen har dette som effekt at en kan referere til entiteter på tvers av domener og koble dem sammen. For eksempel kan jeg identifisere Haakon Magnus, Harald V og Olav V med en URI. Hvis alle disse har en RDF som beskriver hvem som er deres fedre, og hvis jeg laster ned og følger relasjonene så vil jeg finne at Harald V er Haakon Magnus sin far, og Olav V er Harald V sin far. Samtidig kan jeg si at Olav V er far til Haakon Magnus sin far, eller litt enklere at Olav V er Haakon Magnus sin bestefar. Selvfølgelig forutsetter dette at disse dataene blir publisert, og det er ikke helt opplagt.
 

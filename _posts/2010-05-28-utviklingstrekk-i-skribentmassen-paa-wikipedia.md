@@ -7,7 +7,9 @@ tagline : finnes det en «dugnadskonstant»?
 description: En enkel analyse for å vise at det kan finnes en «dugnadskonstant» som påvirker hvor mange som involverer seg i nettbaserte dugnader.
 authors:
   - '[John Erling Blad](/authors/jeblad/)'
-categories : crowdsourcing
+categories :
+  - crowdsourcing
+  - encyclopedia
 tags : Wikipedia, encyclopedia, free knowledge, Store norske leksikon, crowdsource constant
 license: cc-by-sa
 ---

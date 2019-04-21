@@ -7,7 +7,8 @@ tagline: er det en fremtid for papiraviser?
 description: Om fremtiden for papiraviser, og noen tanker om hva som kan bli bestemmende for hvem som overlever.
 authors:
   - '[John Erling Blad](/authors/jeblad/)'
-category: news media
+categories:
+  - news media
 tags: news papers, media
 license: cc-by-sa
 ---
@@ -20,7 +21,7 @@ Det er ingen fremtid for papiraviser. Du kan like godt venne deg til tanken. Pap
 
 For nokså lenge siden støtte jeg på en nokså sær karakter i en tegneserie kalt [Transmetro](http://no.wikipedia.org/wiki/Transmetro). Serien er en nokså skarp, og tidvis besk, satire over politikk, religion og vitenskap -- og hvor galt det kan gå når det moralske og etiske underteppet blir borte. I denne tegneserien er det en figur som går under navnet Spider Jerusalem og som jobber som journalist. Han er ikke som dagens journalister, han er morgendagens oppsøkende journalist som tidvis ikke går av veien for å lage nyhetene selv. Settingen er veldig scifi med konstant oppkobling og kamerabriller som integrerer med synsnerva og så videre.
 
-### Fremtidens mediehverdag?
+### Fremtidens mediehverdag
 
 Rammene rundt med et tidvis dysfunksjonelt samfunn er nokså tett på et ordinært plott for en alternativ fremtid. Noe er imidlertid uvanlig, Spider Jerusalem har mer trekk av dagens [bloggere](http://no.wikipedia.org/wiki/Blogg) enn journalister. Han formidler ikke objektive nyheter, han gir nyhetene en ramme og spisser dem for å formidle ett budskap. Og hans budskap er ikke alltid i samsvar med makthavernes ønsker, men han selger til de store nyhetskanalene. Sittende på hustak formidler han verdens lokale undergang i bakgater mens politiet maltrakterer barn og gravide. Trofast mot ingen andre enn seg selv formidler han slagmarken i blod, gørr og fine farger. Han er nøyaktig, men formidler med en twist som en blogger.
 
