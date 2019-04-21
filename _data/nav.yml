@@ -1,0 +1,6 @@
+
+- title: "Home"
+  url: "/"
+  tab: false
+  id: "home"
+  weight: 10
