@@ -6,7 +6,7 @@ title: Rate encoded location
 tagline: place encode like a brain
 description: Outline of rate encoded locations, how the brain might do it, and a possible approximation for an artificial neural net.
 authors:
-  - '[John Erling Blad](/authors/jeblad/)'
+  - '[John Erling Blad](/authors/jeblad.html)'
 categories:
   - neural nets
 tags: place encode, rate encode

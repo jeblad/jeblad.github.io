@@ -6,7 +6,7 @@ title: Bruk lenka åpne data
 tagline: semantiske data the web way
 description: En gjennomgang av hvordan og hvorfor en bør bruke lenkede semantiske data, og noen tips for å gjøre dette enklest mulig.
 authors:
-  - '[John Erling Blad](/authors/jeblad/)'
+  - '[John Erling Blad](/authors/jeblad.html)'
 categories :
   - semantic web
   - crowdsourcing

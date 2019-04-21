@@ -6,7 +6,7 @@ title:  Sikker lagring i «skya»
 tagline: er sikker lagring mulig på usikre skytjenester?
 description: 
 authors:
-  - '[John Erling Blad](/authors/jeblad/)'
+  - '[John Erling Blad](/authors/jebla.html)'
 categories:
   - cloud storage
 tags: security

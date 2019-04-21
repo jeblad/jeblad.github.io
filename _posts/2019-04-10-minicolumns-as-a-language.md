@@ -10,7 +10,7 @@ tags : formal languages, minicolumn
 parent: "neural_net"
 description: A formal description of minicolumns as functions connecting an input domain to an output domain has striking similarities to formal semantics, and thus what we can do with a neural network.
 authors:
-  - '[John Erling Blad](/authors/jeblad/)'
+  - '[John Erling Blad](/authors/jeblad.html)'
 sources:
   - '[Norwegian Bokmål Wikipedia: Bruker:Jeblad/Minicolumns as a language](https://no.wikipedia.org/wiki/Bruker:Jeblad/Minicolumns_as_a_language)'
 license: cc-by-sa

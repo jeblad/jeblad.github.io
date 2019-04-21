@@ -6,7 +6,7 @@ title: Store norske leksikon
 tagline: hva gikk galt?
 description: Sett utenfra, hva gikk galt med Store norske leksikon når de opererte sin tidligere lukkede utgave. 
 authors:
-  - '[John Erling Blad](/authors/jeblad/)'
+  - '[John Erling Blad](/authors/jeblad.html)'
 categories :
   - encyclopedia
 tags: Store norske leksikon, Fritt ord, Kunnskapsforlaget, monopol, statsstøtte
