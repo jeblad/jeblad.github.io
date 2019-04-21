@@ -48,9 +48,9 @@ END:VCARD
 ```
 
 <!--
-{% figure caption:"Lenke til kvitteringen i form av en QR-kode" class:"right_aligned" %}
+{-% figure caption:"Lenke til kvitteringen i form av en QR-kode" class:"right_aligned" %-}
   [![En QR-kode for maskinlesing; Denne lenker ut til et eksternt nettsted, som angitt i eksempelet.](/assets/images/receipt/receipt-qr-code_98x450.png "Lenke til kvitteringen i form av en QR-kode(1)")](/assets/images/receipt/receipt-qr-code_1024x1024.png)
-{% endfigure %}
+{-% endfigure %-}
 -->
 
 Dette vil bli dekodet som en helt legitim vCard for den imaginære butikken *REPA3000*, om enn med et vCard som har et noe merkelig tillegg. Dette tillegget er våre ekstra data som gjør det mulig å få til en e-kvittering, og som lar et enkelt tilleggsprogram effektivisere hele innhentingen av den fullstendige kvitteringen.
