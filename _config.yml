@@ -47,7 +47,9 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-avatar
-  - jekyll-figure
+  - jekyll-redirect-from
+
+#  - jekyll-figure
 
 # Favicons, etc
 logo : /assets/icons/logo-small.png
@@ -57,6 +59,7 @@ language: en
 
 # Pagination
 paginate: 5
+#paginate_path: "/home/page:num/"
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use.
