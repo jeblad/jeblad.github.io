@@ -3,7 +3,7 @@ layout: page
 title: Info
 permalink: /info/
 use_math: exclude
-weight: 999
+weight: 990
 ---
 
 This site is devoted to various topics that the author(s) find interesting, probably with a slight bias towards [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) and perhaps the subfield [artificial neural net](https://en.wikipedia.org/wiki/Artificial_intelligence). Most of the articles should be fairly easy reading, while the more lengthy articles might be more demanding.
