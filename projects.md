@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 header: Collection of documentation for various projects, not only for artificial neural nets.
 group: navigation
-weight: 98
+weight: 970
 category: pages
 tags: [repo]
 use_math: exclude
