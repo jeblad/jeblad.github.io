@@ -95,8 +95,8 @@ h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 .mdl-navigation a.is-active { background-image: url(/assets/icons/child-active.svg); }
 .mdl-navigation a.parent { background-image: url(/assets/icons/categories.svg); }
 .mdl-navigation a.parent.is-active { background-image: url(/assets/icons/categories-active.svg); }
-.mdl-navigation a[href*=\/home\/] { background-image: url(/assets/icons/home.svg); }
-.mdl-navigation a.is-active[href*=\/home\/] { background-image: url(/assets/icons/home-active.svg); }
+.mdl-navigation a:first-child { background-image: url(/assets/icons/home.svg); }
+.mdl-navigation a.is-active:first-child { background-image: url(/assets/icons/home-active.svg); }
 .mdl-navigation a[href*=\/info\/] { background-image: url(/assets/icons/info.svg); }
 .mdl-navigation a.is-active[href*=\/info\/] { background-image: url(/assets/icons/info-active.svg); }
 .mdl-navigation a[href*=\/authors\/] { background-image: url(/assets/icons/authors.svg); }
