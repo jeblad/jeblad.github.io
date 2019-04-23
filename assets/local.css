@@ -235,7 +235,26 @@ table th[class*="col-"] {
 .right_aligned {
 	float: right;
 }
-
+p > img.tiny {
+	width: 20%;
+}
+p > img.small {
+	width: 40%;
+}
+p > img.medium {
+	width: 60%;
+}
+p > img.large {
+	width: 80%;
+}
+p > img.center {
+	display: block;
+	margin: 0 auto;
+}
+p > img.center + em {
+	display: block;
+	text-align: center;
+}
 .authors > a.author:after {
 	content: ',';
 }
