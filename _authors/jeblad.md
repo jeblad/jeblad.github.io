@@ -1,7 +1,9 @@
 ---
 layout : author
+nick : jeblad
 name : John Erling Blad
 title : John E. Blad
+permalink: /authors/jeblad
 tagline : cand. sci., mathematical modeling
 description : John Erling Blad is an author at AI stuff.
 avatar: jeblad
