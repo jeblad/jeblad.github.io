@@ -235,3 +235,10 @@ table th[class*="col-"] {
 .right_aligned {
 	float: right;
 }
+
+.authors > a.author:after {
+	content: ',';
+}
+.authors > a.author:last-child:after {
+	content: none;
+}
