@@ -6,7 +6,7 @@ title : Utviklingstrekk på Wikipedia
 tagline : finnes det en «dugnadskonstant»?
 description: En enkel analyse for å vise at det kan finnes en «dugnadskonstant» som påvirker hvor mange som involverer seg i nettbaserte dugnader.
 authors:
-  - '[John Erling Blad](/authors/jeblad.html)'
+  - jeblad
 categories :
   - crowdsourcing
   - encyclopedia

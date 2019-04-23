@@ -6,7 +6,7 @@ title: Fremtiden for aviser
 tagline: er det en fremtid for papiraviser?
 description: Om fremtiden for papiraviser, og noen tanker om hva som kan bli bestemmende for hvem som overlever.
 authors:
-  - '[John Erling Blad](/authors/jeblad.html)'
+  - jeblad
 categories:
   - news media
 tags: news papers, media
