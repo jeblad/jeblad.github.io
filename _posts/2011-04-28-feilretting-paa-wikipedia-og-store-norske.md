@@ -5,8 +5,7 @@ date: 2011-04-28 06:00:00 (CET)
 title: Feilretting på Wikipedia og SNL
 tagline: – feil overlever, hvordan motvirke det
 description: Feilretting i leksikon som Wikipedia og SNL drives av både vilje til å rette feil og hvorvidt feil er synlige.
-authors:
-  - jeblad
+authors: [ jeblad ]
 categories:
   - encyclopedia
   - crowdsourcing

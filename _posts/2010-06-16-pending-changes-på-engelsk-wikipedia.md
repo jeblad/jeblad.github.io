@@ -5,8 +5,7 @@ date: 2010-06-16 12:00:00 (CET)
 title: Pending changes på engelsk Wikipedia
 tagline: hva gikk galt?
 description: På engelsk Wikipedia diskuteres det en produksjonsmodell for å godkjenne redigeringer i ettertid, selv om redigeringen er gjort i sanntid. 
-authors:
-  - jeblad
+authors: [ jeblad ]
 categories :
   - encyclopedia
 tags: wikipedia, pending changes, stable versions, flagged revisions, quality, patrolling, reviewer

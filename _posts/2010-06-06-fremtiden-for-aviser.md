@@ -5,8 +5,7 @@ date: 2010-06-06 15:00:00 (CET)
 title: Fremtiden for aviser
 tagline: er det en fremtid for papiraviser?
 description: Om fremtiden for papiraviser, og noen tanker om hva som kan bli bestemmende for hvem som overlever.
-authors:
-  - jeblad
+authors: [ jeblad ]
 categories:
   - news media
 tags: news papers, media

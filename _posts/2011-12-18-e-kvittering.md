@@ -5,8 +5,7 @@ date: 2010-06-16 12:00:00 (CET)
 title: e-kvittering, er det mulig?
 tagline: en mulig løsning som er enkel og billig
 description: Er det mulig å lage et enkelt og effektivt system for å endre dagens enkle papirkvitteringer til et effektivt leveringssystem for digitale bilag?
-authors:
-  - jeblad
+authors: [ jeblad ]
 categories :
   - other
 tags: wikipedia, pending changes, stable versions, flagged revisions, quality, patrolling, reviewer

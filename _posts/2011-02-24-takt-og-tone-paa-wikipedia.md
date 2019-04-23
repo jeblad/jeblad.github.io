@@ -5,8 +5,7 @@ date: 2011-02-24 03:00:00 (CET)
 title: Takt og tone på Wikipedia
 tagline: eller mangel på slikt
 description: En gjennomgang av takt og tone, men et ørlite sideblikk på hvordan og hvorfor takt og tone er blitt som den er.
-authors:
-  - jeblad
+authors: [ jeblad ]
 categories :
   - crowdsourcing
 tags: social media, wikipedia, social cost, norsk nettleksikon, store norske leksikon

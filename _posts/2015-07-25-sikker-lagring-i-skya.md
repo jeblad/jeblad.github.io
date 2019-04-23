@@ -5,8 +5,7 @@ date: 2015-07-25 14:00:00 (CET)
 title:  Sikker lagring i «skya»
 tagline: er sikker lagring mulig på usikre skytjenester?
 description: 
-authors:
-  - jeblad
+authors: [ jeblad ]
 categories:
   - cloud storage
 tags: security
