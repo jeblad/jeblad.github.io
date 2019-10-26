@@ -13,7 +13,7 @@ tags : formal languages, minicolumn
 parent: "neural_net"
 description: >-
   Describing minicolumns as functions connecting domains
-  has similarities to formal semantics, and thus to inference in a neural network.
+  has similarities to formal semantics, and to inference in a neural nets.
 authors:
   - jeblad
 license: cc-by-sa
