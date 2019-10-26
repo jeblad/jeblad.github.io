@@ -12,8 +12,8 @@ tagline: the strange similarities
 tags : formal languages, minicolumn
 parent: "neural_net"
 description: >-
-  A formal description of minicolumns as functions connecting an input domain to an output domain
-  has striking similarities to formal semantics, and thus what we can do with a neural network.
+  Describing minicolumns as functions connecting domains
+  has similarities to formal semantics, and thus what we can do with a neural network.
 authors:
   - jeblad
 license: cc-by-sa
@@ -129,13 +129,13 @@ $$
 
 We have symbols $x$ and $y$, and a function transferring symbols from  $f(x) \to y$. The sets $x _i$ and $y _j$ would be subsets of a larger common set to be formally correct. Generalizing the symbols into vectors should not be a big leap of faith, and likewise the function into being a vector function.
 
-A neural net trained as a typical correlation engine has no natural zero-element. It learns to classify known states, it does not learn to distinguish whats unknown. This creates some pretty weird problems. These often shows up in semantic web as exceptions. In [Wikidata](https://wikidata.org) they are handled as part of [snaks](https://www.wikidata.org/wiki/Wikidata:Glossary#Snak), given as `no value` and `unknown value`. The problem is also known from [natural language processing](https://https://en.wikipedia.org/wiki/Natural_language_processing), with words marked as `<unk>`.
+A neural net trained as a typical correlation engine has no natural zero-element. It learns to classify known states. In particular it does not learn to distinguish whats unknown, but it can guestimate such states from previous learned states. This creates some pretty weird problems. Those often shows up in semantic web as exceptions. In [Wikidata](https://wikidata.org) they are handled as part of [snaks](https://www.wikidata.org/wiki/Wikidata:Glossary#Snak), given as `no value` and `unknown value`. The problem is also known from [natural language processing](https://https://en.wikipedia.org/wiki/Natural_language_processing), with unknown words often marked as `<unk>`.
 
 The concept of “weak classifications”, the less probable states, could be interpreted as a zero-element. If all possible classifications goes towards zero, then that will approximate a zero-element. Thus we may have a rather exact zero-element for the output $y_i$, but for the input $x_i$ there might be large subspace that acts as a zero value.
 
 A rather brilliant description of reasoning is “algebraically manipulating previously acquired knowledge in order to answer a new question” given by {% include cite.html id="DBLP:journals/corr/abs-1102-1808" %}. The previously acquired knowledge is what we used for training the neural net, the question is new inputs, the answer is new outputs, and the algebraic manipulation is how we string together functions. The algebraic manipulations can be strict logical expressions, but it can be a lot more.
 
-To even further obfuscate the problem the inputs live at a manifold in one World, while the outputs live at a manifold in another World. If we can make the input manifold equal to the output manifold, then partial answers given as outputs can be feed back as reformulated questions to the input.
+To even further obfuscate the problem the inputs live at a manifold in one world, while the outputs live at a manifold in another world. If we can make the input manifold equal to the output manifold, then partial answers given as outputs can be feed back as reformulated questions to the input. It is not a given that this holds!
 
 Some current attempts on building inference engines are tree-graphs for program translation by {% include cite.html id="DBLP:journals/corr/abs-1802-03691" %}, and for logical entailment {% include cite.html id="DBLP:journals/corr/abs-1802-08535" %}. These work quite well for unambiguous three structures. Another alternative is reasoning by composition of attention by {% include cite.html id="DBLP:journals/corr/abs-1803-03067" %}.
 
