@@ -1,0 +1,10 @@
+{% if page.licenses %}
+<div class="licenses">
+{% for spdx in page.licenses %}
+	{% assign licenses = site.licenses | where: "spdx", spdx %}
+	{% for license in licenses %}
+	<a class="license" href="{{license.url | absolute_url }}">{{ license.name }}</a>
+	{% endfor %}
+{% endfor %}
+</div>
+{% endif %}
