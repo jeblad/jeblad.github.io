@@ -16,7 +16,7 @@ Etter en lengre debatt og avstemming er nå utvidelsen [FlaggedRevs](http://en.w
 
 <!--more-->
 
-{% include nettdugnad.html source='http://nettdugnad.origo.no/-/bulletin/show/578460_pending-changes-paa-engelsk-wikipedia' %}
+{% include nettdugnad.html source='https://web.archive.org/web/20100823200431/http://nettdugnad.origo.no/-/bulletin/show/578460_pending-changes-paa-engelsk-wikipedia' %}
 
 Endringen blir av og til omtalt som at kun godkjente skribenter skal få tilgang til artiklene. Dette er feil. Alle skribenter har tilgang til å skrive på artiklene, men en av de som er patruljører må godkjenne endringen før den blir synlig for anonyme. Dette reduserer muligheten for at vandaliserte artikler blir vist frem.
 
