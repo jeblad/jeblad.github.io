@@ -1,0 +1,14 @@
+---
+layout : default
+use_math : exclude
+---
+
+<h2>{{ page.tagline }}</h2>
+
+{% include info.html %}
+
+{% if page.avatar %}
+{% avatar {{ page.avatar }} %}
+{% endif %}
+
+{{ content }}
