@@ -1,0 +1,1 @@
+({% assign source = page.sources[include.id] %}<a href="#{{ include.id}}">{% if source.authors %}{% assign names = source.authors | default: source.lecturers %}{% for name in names %}{{ name | split: "," | first | strip }}, {% endfor %} {{ source.year }}{% endif %}</a>)
