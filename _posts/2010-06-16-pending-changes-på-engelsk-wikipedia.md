@@ -12,7 +12,7 @@ tags: wikipedia, pending changes, stable versions, flagged revisions, quality, p
 license: cc-by-sa
 ---
 
-Etter en lengre debatt og avstemming er nå utvidelsen [FlaggedRevs](http://en.wikipedia.org/wiki/Wikipedia:Flagged_revisions) tatt ibruk på [engelsk Wikipedia](http://en.wikipedia.org). Denne utvidelsen er også kjent som [stabile versjoner](http://no.wikipedia.org/wiki/Stabile_versjoner_%28Mediawiki%29). Oppsettet de bruker er blitt kalt [pending changes](//http://en.wikipedia.org/wiki/Wikipedia:Pending_changes). Den fungerer slik at når den slås på for en artikkel så får ikke anonyme se versjonen før den er godkjent av en *reviewer* eller *patruljør\_. Denne kan velge å fjerne versjonen fra fortsatt publisering hvis den strider mot [Wikipedias regler og retningslinjer](http://en.wikipedia.org/wiki/Wikipedia:Policies_and)*guidelines.
+Etter en lengre debatt og avstemming er nå utvidelsen [FlaggedRevs](http://en.wikipedia.org/wiki/Wikipedia:Flagged_revisions) tatt ibruk på [engelsk Wikipedia](http://en.wikipedia.org). Denne utvidelsen er også kjent som [stabile versjoner](http://no.wikipedia.org/wiki/Stabile_versjoner_%28Mediawiki%29). Oppsettet de bruker er blitt kalt [pending changes](//http://en.wikipedia.org/wiki/Wikipedia:Pending_changes). Den fungerer slik at når den slås på for en artikkel så får ikke anonyme se versjonen før den er godkjent av en *reviewer* eller *patruljør*. Denne kan velge å fjerne versjonen fra fortsatt publisering hvis den strider mot [Wikipedias regler og retningslinjer](http://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines).
 
 <!--more-->
 
