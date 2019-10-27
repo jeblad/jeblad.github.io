@@ -4,8 +4,9 @@ language: nb
 date: 2015-07-25 14:00:00 (CET)
 title:  Sikker lagring i «skya»
 tagline: er sikker lagring mulig på usikre skytjenester?
-description: Skytjenester er attraktivt fordi en kan få tilgang fra mange steder, men samtidig en honningkrukke for de som ønsker å snoke.
-authors: [ jeblad ]
+description: Skytjenester er attraktivt fordi det gir tilgang fra mange steder, men er en honningkrukke for de som ønsker å snoke.
+authors:
+  - jeblad
 categories:
   - cloud storage
 tags: security
