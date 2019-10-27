@@ -19,15 +19,15 @@ authors:
 license: cc-by-sa
 theorems:
   proposition:
-    title: Simple World
+    title: Language for Simple World
     description: >-
-      In a simple World a sufficient language can be described as a set of inputs set to
-      constant values, processed by functions, which outputs new constant values. The
-      constants …
+      A sufficient language for a Simple World can be described as a set of constants used as input
+      values to a single function that outputs new constants.
   corollary:
-    title: Complex World
+    title: Language for Complex World
     description: >-
-      Some description of what this is… $E=mc^2$ And a bit more.
+      A sufficient language for a Complex World can be described as a set of vector constants used as input
+      values to multiple functions that outputs new vector constants.
 sources:
   DBLP:journals/corr/abs-1803-03067:
     type: journal
@@ -111,11 +111,11 @@ There are some striking similarities between [reasoning systems](https://en.wiki
 
 <!--more-->
 
-These similarities are apparent when neural nets are used in inference engines, and not merely as correlation engines. Many of the current high-profile use cases are for correlation engines, such as image classifiers and shallow query answering engines often known as chat bots. In inference engines a number of simple claims formed by single triplets are stringed together to form composite statements by composition rules. Such statements can then be used both as questions to the engine and answers from the engine.
+These similarities are apparent when neural nets are used in inference engines, and not merely as correlation engines. Many of the current high-profile use cases are for correlation engines, such as image classifiers and shallow query answering engines often known as chat bots. In inference engines a number of simple claims formed by single triplets are stringed together to form composite statements by composition rules. Such statements can then be used both as questions to the engine (analysis) and answers from the engine (synthesis).
 
 {% include theorems.html id="proposition" %}
 
-A single triplet can be viewed as the quite simple language $\mathcal{L}$
+A single triplet can be viewed as the language $\mathcal{L}$
 
 $$
 \begin{equation}
@@ -127,15 +127,15 @@ $$
 \end{equation}
 $$
 
-We have symbols $x$ and $y$, and a function transferring symbols from  $f(x) \to y$. The sets $x _i$ and $y _j$ would be subsets of a larger common set to be formally correct. Generalizing the symbols into vectors should not be a big leap of faith, and likewise the function into being a vector function.
+where the symbols $x$ and $y$ represents input and output, and a function transferring symbols $f(x) \to y$. The sets $x _i$ and $y _j$ would be subsets of a larger common set to be formally correct. Generalizing the symbols into vectors should not be a big leap of faith, and likewise the function into being a vector function.
 
-A neural net trained as a typical correlation engine has no natural zero-element. It learns to classify known states. In particular it does not learn to distinguish whats unknown, but it can guestimate such states from previous learned states. This creates some pretty weird problems. Those often shows up in semantic web as exceptions. In [Wikidata](https://wikidata.org) they are handled as part of [snaks](https://www.wikidata.org/wiki/Wikidata:Glossary#Snak), given as `no value` and `unknown value`. The problem is also known from [natural language processing](https://https://en.wikipedia.org/wiki/Natural_language_processing), with unknown words often marked as `<unk>`.
+A neural net trained as a typical correlation engine has no natural zero-element. It learns to classify known states. In particular it does not learn to distinguish whats unknown, but it can guestimate such states from previous learned states. This creates some pretty weird problems. Those often shows up in semantic web as exceptions. In [Wikidata](https://wikidata.org) they are handled as part of [snaks](https://www.wikidata.org/wiki/Wikidata:Glossary#Snak), given as `no value` and `unknown value`. The problem is also known from [natural language processing](https://https://en.wikipedia.org/wiki/Natural_language_processing), with unknown words marked as `<unk>`.
 
-The concept of “weak classifications”, the less probable states, could be interpreted as a zero-element. If all possible classifications goes towards zero, then that will approximate a zero-element. Thus we may have a rather exact zero-element for the output $y_i$, but for the input $x_i$ there might be large subspace that acts as a zero value.
+The concept of “weak classifications”, the less probable states, could be interpreted as a zero-element. If all possible classifications goes towards zero, then that will approximate a zero-element. Thus there might be a rather exact zero-element for the output $y_i$, but for the input $x_i$ there might be large subspace that acts as a zero value.
 
-A rather brilliant description of reasoning is “algebraically manipulating previously acquired knowledge in order to answer a new question” given by {% include cite.html id="DBLP:journals/corr/abs-1102-1808" %}. The previously acquired knowledge is what we used for training the neural net, the question is new inputs, the answer is new outputs, and the algebraic manipulation is how we string together functions. The algebraic manipulations can be strict logical expressions, but it can be a lot more.
+A rather brilliant description of reasoning is “algebraically manipulating previously acquired knowledge in order to answer a new question” given by {% include cite.html id="DBLP:journals/corr/abs-1102-1808" %}. The previously acquired knowledge has been used for training the neural net, the question is new inputs, the answer is new outputs, and the algebraic manipulation is how the functions are chained together. The algebraic manipulations can be strict logical expressions, but it can be a lot more.
 
-To even further obfuscate the problem the inputs live at a manifold in one World, while the outputs live at a manifold in another World. If we can make the input manifold equal to the output manifold, then partial answers given as outputs can be feed back as reformulated questions to the input. It is not a given that this happen, but if the network tries to make a faithful reproduction in the mean of the input, then it will happen.
+To even further obfuscate the problem the inputs live at a manifold in one World, while the outputs live at a manifold in another World. When the input manifold is equal to the output manifold, then partial answers given as outputs can be feed back as reformulated questions to the input. It is not a given that this happen, but if the network tries to make a faithful reproduction in the mean of the input, then it will happen.
 
 Some current attempts on building inference engines are tree-graphs for program translation by {% include cite.html id="DBLP:journals/corr/abs-1802-03691" %}, and for logical entailment {% include cite.html id="DBLP:journals/corr/abs-1802-08535" %}. These work quite well for unambiguous three structures. Another alternative is reasoning by composition of attention by {% include cite.html id="DBLP:journals/corr/abs-1803-03067" %}.
 
@@ -143,13 +143,13 @@ In an ideal World a single function, that is a single total learned transfer fun
 
 A corollary to this is that a small correction in transfer learning should be taken in smaller steps if the previous learning set was large, otherwise learning would step out of the finer manifold defined by the larger training set. The large single function leads to a large training set, which gives small training steps. Together with a large layer this makes the overall processing needs explode. In fully connected neural layer learning is a $O(\alpha TM + \beta NM)$ problem where $N$ being number of input nodes, $M$ being number of output nodes, and $T$ being number of training samples. In general $\alpha$ and $\beta$ are unknown, so both therms should be kept low, that is better keep $M$ low or keep the number of output nodes low.
 
-How can we keep the implemented function simple, without sacrifice precision, and hopefully also limiting the training set?
+Can the implemented function be kept simple, without sacrificing precision, and hopefully also with a limited training set?
 
-We can partition the total global World into smaller local worlds. The size of the function is limited (that is the number of nodes) and the necessary training set is also limited. If we spell it out; the function is the predicate in the triplet, and it is obvious that it is a kind of subworld in a larger World, thus its scope is somewhat limited.
+The Global World can be partitioned into smaller Local Worlds. By doing so, the size of the function is limited (that is the number of nodes) and the necessary training set is also limited. Note that the function is the predicate in the triplet, thus it is obvious that it is a kind of subworld in a larger World, and thus its scope is somewhat limited.
 
 {% include theorems.html id="corollary" %}
 
-Assume there is a language $\mathcal{L}$, organized as a 2-dimensional map, indexed by $i$ and $j$, such that
+A single triplet can be viewed as the language $\mathcal{L}$, organized as a 2-dimensional map, indexed by $i$ and $j$, such that
 
 $$
 \begin{equation}
