@@ -3,7 +3,7 @@
 {% for spdx in page.licenses %}
 	{% assign licenses = site.licenses | where: "spdx", spdx %}
 	{% for license in licenses %}
-	<a class="license" href="{{license.url | absolute_url }}">{{ license.name }}</a>
+	<a class="license" href="{{license.url | absolute_url }}">{{ license.title }}</a>
 	{% endfor %}
 {% endfor %}
 </div>
