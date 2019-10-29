@@ -5,7 +5,8 @@ date: 2011-04-28 06:00:00 (CET)
 title: Feilretting på Wikipedia og SNL
 tagline: – feil overlever, hvordan motvirke det
 description: Feilretting i leksikon som Wikipedia og SNL drives av både vilje til å rette feil og hvorvidt feil er synlige.
-authors: [ jeblad ]
+authors:
+  - jeblad
 categories:
   - encyclopedia
   - crowdsourcing
@@ -17,7 +18,7 @@ Utfra den allment brukte forklaringen så skal feil forsvinne over tid på Wikip
 
 <!--more-->
 
-{% include nettdugnad.html source='http://nettdugnad.origo.no/-/bulletin/show/646457_feilretting-paa-wikipedia-og-store-norske' %}
+{% include nettdugnad.html source='https://web.archive.org/web/20100824001252/http://nettdugnad.origo.no:80/-/bulletin/show/589117_feilretting-paa-wikipedia' %}
 
 Wikipedia består av et stort repository av informasjon, og denne informasjonsbasen blir vedlikeholdt og kontrollert av gatekeepers som har varierende kunnskaper om innholdet i informasjonsbasen. Deler av informasjonen i repositoryet har i tillegg referanser til annen informasjon som understøtter informasjonen, men la oss se bort fra disse. På Wikipedia er det hovedsakelig patrollers og administratorer som opptrer som gatekeepers, i Store Norske er rollen i stor grad overlatt til forfatterne selv.
 
