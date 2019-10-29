@@ -18,7 +18,7 @@ Det er ingen fremtid for papiraviser. Du kan like godt venne deg til tanken. Pap
 
 <!--more-->
 
-{% include opinion.html %}
+<!-- {% include opinion.html %} -->
 
 {% include nettdugnad.html source='https://web.archive.org/web/20100826035609/http://nettdugnad.origo.no/-/bulletin/show/576007_fremtiden-for-aviser' %}
 
