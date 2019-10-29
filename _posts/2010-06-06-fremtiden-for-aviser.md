@@ -10,20 +10,23 @@ authors:
 categories:
   - news media
 tags: news papers, media
-license: cc-by-sa
+licenses:
+  - CC-BY-SA-4.0
 ---
 
 Det er ingen fremtid for papiraviser. Du kan like godt venne deg til tanken. Papir er dødt. Betyr det at journalistikken er død? Så absolutt ikke! Det vil alltid være et behov for å formidle informasjon, og noen til å gjøre jobben.
 
 <!--more-->
 
-{% include wmno-nettdugnad.html source1='http://wikimedianorge.origo.no/573545b' source2='https://web.archive.org/web/20100826035609/http://nettdugnad.origo.no/-/bulletin/show/576007_fremtiden-for-aviser' %}
+{% include opinion.html %}
 
-For nokså lenge siden støtte jeg på en nokså sær karakter i en tegneserie kalt [Transmetro](http://no.wikipedia.org/wiki/Transmetro). Serien er en nokså skarp, og tidvis besk, satire over politikk, religion og vitenskap -- og hvor galt det kan gå når det moralske og etiske underteppet blir borte. I denne tegneserien er det en figur som går under navnet Spider Jerusalem og som jobber som journalist. Han er ikke som dagens journalister, han er morgendagens oppsøkende journalist som tidvis ikke går av veien for å lage nyhetene selv. Settingen er veldig scifi med konstant oppkobling og kamerabriller som integrerer med synsnerva og så videre.
+{% include nettdugnad.html source='https://web.archive.org/web/20100826035609/http://nettdugnad.origo.no/-/bulletin/show/576007_fremtiden-for-aviser' %}
+
+For nokså lenge siden støtte jeg på en nokså sær karakter “Spider Jerusalem” i en tegneserie kalt [Transmetro](http://no.wikipedia.org/wiki/Transmetro). Serien er en nokså skarp, og tidvis besk, satire over politikk, religion og vitenskap – og hvor galt det kan gå i et samfunn når moral og etikk forvitrer. I tegneserien er Spider Jerusalem journalist. Han er ikke helt som dagens journalister, han er morgendagens oppsøkende journalist som ikke går av veien for å lage nyhetene selv. Settingen er veldig “scifi”, hvor mennesker er konstant på nett, blant annet med kamerabriller som integrerer med synsnerva. Google og Facebooks våte drøm.
 
 ### Fremtidens mediehverdag
 
-Rammene rundt med et tidvis dysfunksjonelt samfunn er nokså tett på et ordinært plott for en alternativ fremtid. Noe er imidlertid uvanlig, Spider Jerusalem har mer trekk av dagens [bloggere](http://no.wikipedia.org/wiki/Blogg) enn journalister. Han formidler ikke objektive nyheter, han gir nyhetene en ramme og spisser dem for å formidle ett budskap. Og hans budskap er ikke alltid i samsvar med makthavernes ønsker, men han selger til de store nyhetskanalene. Sittende på hustak formidler han verdens lokale undergang i bakgater mens politiet maltrakterer barn og gravide. Trofast mot ingen andre enn seg selv formidler han slagmarken i blod, gørr og fine farger. Han er nøyaktig, men formidler med en twist som en blogger.
+Rammene rundt med et tidvis dysfunksjonelt samfunn er nokså tett på et ordinært plott for en alternativ fremtid. Noe er imidlertid uvanlig, Spider Jerusalem har mer trekk av dagens [bloggere](http://no.wikipedia.org/wiki/Blogg) enn journalister. Han formidler ikke objektive nyheter, han gir nyhetene en ramme, og spisser dem for å formidle ett budskap. Sittende på hustak formidler han verdens lokale undergang i bakgater mens politiet maltrakterer barn og gravide. Trofast mot ingen andre enn seg selv formidler han slagmarken i blod, gørr og fine farger. Han er nøyaktig, men formidler med en twist som en blogger. Hans budskap er ikke alltid i samsvar med makthavernes ønsker, men han selger til de store nyhetskanalene.
 
 ### Jeff Jarvis
 

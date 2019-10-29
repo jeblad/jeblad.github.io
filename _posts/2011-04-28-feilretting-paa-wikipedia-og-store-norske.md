@@ -11,7 +11,8 @@ categories:
   - encyclopedia
   - crowdsourcing
 tags: social media, wikipedia, social cost, quality assurance, document control, error correction, norsk nettleksikon, store norske leksikon
-license: cc-by-sa
+licenses:
+  - CC-BY-SA-4.0
 ---
 
 Utfra den allment brukte forklaringen så skal feil forsvinne over tid på Wikipedia og i litt mindre grad på Store Norske, eller det som nå kalles Norsk Nettleksikon. Dette skjer ikke, feil overlever på Wikipedia, og de overlever mye lengre enn en skulle tro var mulig. Samtidig er mengden feil urovekkende høy. Det er mulig å vise hva som skjer ved å modellere prosessen, men det er også mulig å forklare det hele uten å henfalle til veldig avanserte modeller.

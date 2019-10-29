@@ -11,7 +11,8 @@ categories :
   - crowdsourcing
   - encyclopedia
 tags : Wikipedia, encyclopedia, free knowledge, Store norske leksikon, crowdsource constant
-license: cc-by-sa
+licenses:
+  - CC-BY-NC-ND-4.0
 ---
 
 Enkle analyser indikerer at det kan finnes en internasjonal «dugnadskonstant» som slår gjennom brukermassen til nettleksikonet. Slike dugnadskonstanter vil sette en nedre grense for hvor små språkene kan være om de skal danne fungerende nettsamfunn som produserer leksikon. Språkene vil ikke ha tilstrekkelig mange brukere som kan gå inn i rollen som skribenter, noe som igjen setter en grense for når det oppstår et nettsamfunn med tilstrekkelig produksjonskapasitet.

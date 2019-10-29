@@ -10,7 +10,8 @@ authors:
 categories :
   - crowdsourcing
 tags: social media, wikipedia, social cost, norsk nettleksikon, store norske leksikon
-license: cc-by-sa
+licenses:
+  - CC-BY-SA-4.0
 ---
 
 Jeg har vært en del av Wikipedia i snart 6 år. Det har vært utrolig spennende å se nettstedet vokse så fenomenalt mye. Jeg så ikke nettstedet når det var i sin spede barndom og manglet folk, jeg kom inn når entusiasmen og gløden var på topp. Siden har mye av gløden sluknet og hverdagen har tatt over. Noe har kommet til, noe som er litt mer enn hverdag. Underveis så har det virket som om tonen skribentene imellom har hardnet til. En gang var det mulig å spørre og få svar, nå diskuteres det arbeidsrutiner for hvordan en skal sikre at nye brukere får svar. På engelsk Wikipedia diskuteres det til og med egne tekniske løsninger slik at team skal svare på spørsmål på en effektiv og strukturert måte.

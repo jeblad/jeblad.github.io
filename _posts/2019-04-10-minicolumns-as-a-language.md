@@ -16,7 +16,8 @@ description: >-
   to inference in a neural nets.
 authors:
   - jeblad
-license: cc-by-sa
+licenses:
+  - CC-BY-NC-ND-4.0
 theorems:
   proposition:
     title: Language for Simple World

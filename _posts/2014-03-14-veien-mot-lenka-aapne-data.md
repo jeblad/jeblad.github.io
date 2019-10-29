@@ -11,7 +11,8 @@ categories :
   - semantic web
   - crowdsourcing
 tags: Wikipedia, Wikidata, linked data, open data, semantic web
-license: cc-by-sa
+licenses:
+  - CC-BY-SA-4.0
 ---
 
 De fleste som er litt aktive på tekniske sider på nettet har nok fått med seg frasene [åpne data](https://en.wikipedia.org/wiki/Open_data) og [lenkede data](https://en.wikipedia.org/wiki/Linked_data), og kanskje også [semantisk web](https://en.wikipedia.org/wiki/Semantic_Web). Disse begrepene er sentrale i en stille revolusjon på nettet. Data som før levde «inni» maskiner og kun ble gjort tilgjengelig i en tekstgraut blir nå gjort tilgjengelig på et vis som er velstrukturert og gjenbrukbart. Hvem er involvert og hvordan skjer dette?

@@ -10,7 +10,8 @@ authors:
 categories :
   - encyclopedia
 tags: Store norske leksikon, Fritt ord, Kunnskapsforlaget, monopol, statsstøtte
-license: cc-by-sa
+licenses:
+  - CC-BY-SA-4.0
 ---
 
 Leksikondebatten ble i en periode veldig pompøs og nasjonalistisk. Debattanter påberopte seg både Grunnloven og at de representerte selve nasjonens arvesølv. Det er liten tvil om at en serie forhold ble håndtert feil, men det var (og er) ikke så opplagt at enkelte ting ikke ville fungere som planlagt. Skal leksikonet bestå bør om ikke annet noen av forholdene vurderes på nytt.
