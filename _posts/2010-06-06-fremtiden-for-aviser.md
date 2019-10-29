@@ -5,7 +5,8 @@ date: 2010-06-06 15:00:00 (CET)
 title: Fremtiden for aviser
 tagline: er det en fremtid for papiraviser?
 description: Om fremtiden for papiraviser, og noen tanker om hva som kan bli bestemmende for hvem som overlever.
-authors: [ jeblad ]
+authors:
+  - jeblad
 categories:
   - news media
 tags: news papers, media
@@ -16,7 +17,7 @@ Det er ingen fremtid for papiraviser. Du kan like godt venne deg til tanken. Pap
 
 <!--more-->
 
-{% include wmno-nettdugnad.html source1='http://wikimedianorge.origo.no/573545b' source2='http://nettdugnad.origo.no/-/bulletin/show/576007_fremtiden-for-aviser' %}
+{% include wmno-nettdugnad.html source1='http://wikimedianorge.origo.no/573545b' source2='https://web.archive.org/web/20100826035609/http://nettdugnad.origo.no/-/bulletin/show/576007_fremtiden-for-aviser' %}
 
 For nokså lenge siden støtte jeg på en nokså sær karakter i en tegneserie kalt [Transmetro](http://no.wikipedia.org/wiki/Transmetro). Serien er en nokså skarp, og tidvis besk, satire over politikk, religion og vitenskap -- og hvor galt det kan gå når det moralske og etiske underteppet blir borte. I denne tegneserien er det en figur som går under navnet Spider Jerusalem og som jobber som journalist. Han er ikke som dagens journalister, han er morgendagens oppsøkende journalist som tidvis ikke går av veien for å lage nyhetene selv. Settingen er veldig scifi med konstant oppkobling og kamerabriller som integrerer med synsnerva og så videre.
 
