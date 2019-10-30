@@ -18,9 +18,6 @@ Det er ingen fremtid for papiraviser. Du kan like godt venne deg til tanken. Pap
 
 <!--more-->
 
-<!-- {% include opinion.html %} -->
-
-{% include nettdugnad.html source='https://web.archive.org/web/20100826035609/http://nettdugnad.origo.no/-/bulletin/show/576007_fremtiden-for-aviser' %}
 
 For nokså lenge siden støtte jeg på en nokså sær karakter “Spider Jerusalem” i en tegneserie kalt [Transmetro](http://no.wikipedia.org/wiki/Transmetro). Serien er en nokså skarp, og tidvis besk, satire over politikk, religion og vitenskap – og hvor galt det kan gå i et samfunn når moral og etikk forvitrer. I tegneserien er Spider Jerusalem journalist. Han er ikke helt som dagens journalister, han er morgendagens oppsøkende journalist som ikke går av veien for å lage nyhetene selv. Settingen er veldig “scifi”, hvor mennesker er konstant på nett, blant annet med kamerabriller som integrerer med synsnerva. Google og Facebooks våte drøm.
 
