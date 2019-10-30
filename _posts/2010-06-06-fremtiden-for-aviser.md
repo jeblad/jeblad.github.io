@@ -10,14 +10,15 @@ authors:
 categories:
   - news media
 tags: news papers, media
-licenses:
-  - CC-BY-SA-4.0
 ---
 
 Det er ingen fremtid for papiraviser. Du kan like godt venne deg til tanken. Papir er dødt. Betyr det at journalistikken er død? Så absolutt ikke! Det vil alltid være et behov for å formidle informasjon, og noen til å gjøre jobben.
 
 <!--more-->
 
+<!-- {% include opinion.html %} -->
+
+{% include nettdugnad.html source='https://web.archive.org/web/20100826035609/http://nettdugnad.origo.no/-/bulletin/show/576007_fremtiden-for-aviser' %}
 
 For nokså lenge siden støtte jeg på en nokså sær karakter “Spider Jerusalem” i en tegneserie kalt [Transmetro](http://no.wikipedia.org/wiki/Transmetro). Serien er en nokså skarp, og tidvis besk, satire over politikk, religion og vitenskap – og hvor galt det kan gå i et samfunn når moral og etikk forvitrer. I tegneserien er Spider Jerusalem journalist. Han er ikke helt som dagens journalister, han er morgendagens oppsøkende journalist som ikke går av veien for å lage nyhetene selv. Settingen er veldig “scifi”, hvor mennesker er konstant på nett, blant annet med kamerabriller som integrerer med synsnerva. Google og Facebooks våte drøm.
 
