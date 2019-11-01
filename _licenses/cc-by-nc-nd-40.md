@@ -5,6 +5,7 @@ title : CC by-nc-nd 4.0
 name: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
 tagline : Attribution-NonCommercial-NoDerivatives 4.0 International
 link: https://creativecommons.org/licenses/by-nc-nd/4.0/
+legal: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 permalink: /licenses/by-nc-nd-40
 ---
 

@@ -5,6 +5,7 @@ title : CC by-sa 4.0
 name: Creative Commons Attribution-ShareAlike 4.0 International
 tagline : Attribution-ShareAlike 4.0 International
 link: https://creativecommons.org/licenses/by-sa/4.0/
+legal: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 permalink: /licenses/cc-by-sa-40
 ---
 
