@@ -1,0 +1,29 @@
+<p class="date">
+	{% if page.created %}
+	<div class="created">
+		{% if page.language == 'nb' %}
+		Opprettet: {{ page.created | date: "%d/%m/%y" }}
+		{% else %}
+		Created: {{ page.created | date: "%m/%d/%y" }}
+		{% endif %}
+	</div>
+	{% endif %}
+	{% if page.date %}
+	<div class="published">
+		{% if page.language == 'nb' %}
+		Publisert: {{ page.date | date: "%d/%m/%y" }}
+		{% else %}
+		Published: {{ page.date | date: "%m/%d/%y" }}
+		{% endif %}
+	</div>
+	{% endif %}
+	{% if page.modified %}
+	<div class="modified">
+		{% if page.language == 'nb' %}
+		Endret: {{ page.modified | date: "%d/%m/%y" }}
+		{% else %}
+		Modified: {{ page.modified | date: "%m/%d/%y" }}
+		{% endif %}
+	</div>
+	{% endif %}
+</p>
