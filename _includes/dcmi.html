@@ -1,7 +1,7 @@
 <meta name="dc.title" content="{{ page.title | default: site.title }}" />
-{% if page.date %}
-<meta name="dc.issued" content="{{ page.date | date: '%Y-%m-%d' }}"/>
-{% endif %}
+{% if page.date %}<meta name="dc.created" content="{{ page.created | date: '%Y-%m-%d' }}"/>{% endif %}
+{% if page.date %}<meta name="dc.issued" content="{{ page.date | date: '%Y-%m-%d' }}"/>{% endif %}
+{% if page.modified %}<meta name="dc.modified" content="{{ page.modified | date: '%Y-%m-%d' }}"/>{% endif %}
 <meta name="dc.description" content="{{ page.description | default: site.description }}" />
 <meta name="dc.language" content="{{ page.language | default: site.language }}" />
 <meta name="dc.license" content="{{ page.license | default: site.license }}" />

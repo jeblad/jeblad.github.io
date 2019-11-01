@@ -1,8 +1,8 @@
-<div class="authors">
+<p class="authors">
 {% for nick in page.authors %}
 	{% assign authors = site.authors | where: "nick", nick %}
 	{% for author in authors %}
 	<a class="author" href="{{author.url | absolute_url }}">{{ author.name }}</a>
 	{% endfor %}
 {% endfor %}
-</div>
+</p>
