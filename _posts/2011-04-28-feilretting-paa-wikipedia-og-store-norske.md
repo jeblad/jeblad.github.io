@@ -1,7 +1,8 @@
 ---
 layout: post
 language: nb
-date: 2011-04-28 06:00:00 (CET)
+created: 2011-04-28 06:00:00 (CET)
+updated: 2019-11-01 04:13:00 (CET)
 title: Feilretting på Wikipedia og SNL
 tagline: feil overlever, hvordan motvirke det
 description: Feilretting i leksikon som Wikipedia og SNL drives av både vilje til å rette feil og hvorvidt feil er synlige.
@@ -15,7 +16,7 @@ licenses:
   - CC-BY-SA-4.0
 ---
 
-Utfra den allment brukte (og aksepterte) forklaringen så skal feil forsvinne over tid på Wikipedia og i litt mindre grad på Store Norske Leksikon, eller det som også kalles Norsk Nettleksikon. Dette skjer ikke, feil overlever på Wikipedia, og de overlever mye lengre enn en skulle tro var mulig. Samtidig er mengden feil urovekkende høy. Det er mulig å vise hva som skjer ved å modellere prosessen uten bruk av alt for avanserte teknikker.
+Utfra den allment brukte (og aksepterte) forklaringen så skal feil forsvinne over tid på Wikipedia og i litt mindre grad på Store Norske Leksikon, eller det som også kalles Norsk Nettleksikon. Dette skjer ikke, feil overlever på Wikipedia, og de overlever mye lengre enn en skulle tro var mulig. Det er mulig å vise hva som skjer ved å modellere prosessen uten bruk av alt for avanserte teknikker.
 
 <!--more-->
 
