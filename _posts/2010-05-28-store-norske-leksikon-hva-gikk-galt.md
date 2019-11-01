@@ -1,7 +1,7 @@
 ---
 layout: post
 language: nb
-date: 2010-05-28 20:00:00 (CET)
+created: 2010-05-28 20:00:00 (CET)
 title: Store norske leksikon
 tagline: hva gikk galt?
 description: Sett utenfra, hva gikk galt med Store norske leksikon når de opererte sin tidligere lukkede utgave. 
@@ -19,6 +19,7 @@ Leksikondebatten ble i en periode veldig pompøs og nasjonalistisk. Debattanter 
 <!--more-->
 
 {% include nettdugnad.html source='https://web.archive.org/web/20100822092724/http://nettdugnad.origo.no/-/bulletin/show/574046_store-norske-leksikon-hva-gikk-galt' %}
+{% include opinion.html %}
 
 ### For sent og for dårlig
 
