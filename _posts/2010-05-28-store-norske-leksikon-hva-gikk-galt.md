@@ -2,7 +2,7 @@
 layout: post
 language: nb
 created: 2010-05-28 20:00:00 (CET)
-updated: 2019-11-01 06:49:00 (CET)
+modified: 2019-11-01 06:49:00 (CET)
 title: Store norske leksikon
 tagline: hva gikk galt?
 description: Sett utenfra, hva gikk galt med Store norske leksikon når de opererte sin tidligere lukkede utgave. 
