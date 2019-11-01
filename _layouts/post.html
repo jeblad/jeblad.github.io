@@ -6,7 +6,15 @@ u_se_math: include
 <h2>{{ page.tagline }}</h2>
 {% include authors.html %}
 {% include licenses.html %}
-<div class="date">{{ page.date }}</div>
+<div class="date">
+{% if page.created %}
+<div class="created">Created: {{ page.created | date: "%d/%m/%y" }}</div>
+{% endif %}
+<div class="published">Published: {{ page.date | date: "%d/%m/%y" }}</div>
+{% if page.updated %}
+<div class="updated">Updated: {{ page.updated | date: "%d/%m/%y" }}</div>
+{% endif %}
+</div>
 
 {% include info.html %}
 
