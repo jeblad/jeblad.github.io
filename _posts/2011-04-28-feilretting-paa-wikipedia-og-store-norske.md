@@ -20,6 +20,7 @@ Utfra den allment brukte (og aksepterte) forklaringen så skal feil forsvinne ov
 <!--more-->
 
 {% include nettdugnad.html source='https://web.archive.org/web/20100824001252/http://nettdugnad.origo.no:80/-/bulletin/show/589117_feilretting-paa-wikipedia' %}
+{% include popular.html %}
 {% include reworked.html %}
 
 Wikipedia består av et stort repository av informasjon, og denne informasjonsbasen blir vedlikeholdt og kontrollert av gatekeepers som har varierende kunnskaper om innholdet i informasjonsbasen. Deler av informasjonen i repositoryet har i tillegg referanser til annen informasjon som understøtter informasjonen, men la oss se bort fra disse. På Wikipedia er det hovedsakelig patrollers og administratorer som opptrer som gatekeepers, i Store Norske er rollen i stor grad overlatt til forfatterne selv.
