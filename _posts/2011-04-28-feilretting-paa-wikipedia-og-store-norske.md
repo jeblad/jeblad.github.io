@@ -23,13 +23,13 @@ Utfra den allment brukte (og aksepterte) forklaringen så skal feil forsvinne ov
 {% include popular.html %}
 {% include reworked.html %}
 
-Wikipedia består av et stort repository av informasjon, og denne informasjonsbasen blir vedlikeholdt og kontrollert av gatekeepers som har varierende kunnskaper om innholdet i informasjonsbasen. Deler av informasjonen i repositoryet har i tillegg referanser til annen informasjon som understøtter informasjonen, men la oss se bort fra disse. På Wikipedia er det hovedsakelig patrollers og administratorer som opptrer som gatekeepers, i Store Norske er rollen i stor grad overlatt til forfatterne selv.
+Wikipedia består av et stort datalager med informasjon, og denne informasjonsbasen blir vedlikeholdt og kontrollert av gatekeepers som har varierende kunnskaper om innholdet i informasjonsbasen. Deler av informasjonen i datalageret har i tillegg referanser til annen informasjon som understøtter denne, men la oss se bort fra disse. På Wikipedia er det hovedsakelig patrollers og administratorer som opptrer som gatekeepers, i Store Norske er rollen i stor grad overlatt til forfatterne selv.
 
-På utsiden av repositoryet finnes det andre som besitter kunnskaper om det som befinner seg inne i repositoryet. Disse har i Wikipedia direkte tilgang til å endre innholdet, men bare så lenge aktiviteten blir funnet akseptabel av de som opptrer som gatekeepers. De som er gatekeepers forsøker å skille gode bidrag fra dårlige og tildels uønskede bidrag, de gode beholdes og de dårlige og uønskede forkastes.
+På utsiden av datalageret finnes det andre som besitter kunnskaper om det som befinner seg inne i datalageret. Disse har i Wikipedia direkte tilgang til å endre innholdet, men bare så lenge aktiviteten blir funnet akseptabel av de som opptrer som gatekeepers. De som er gatekeepers forsøker å skille gode bidrag fra dårlige og tildels uønskede bidrag, de gode beholdes og de dårlige og uønskede forkastes.
 
-### Feilretting i repositoryet
+### Feilretting
 
-I noen tilfeller så observerer en aktør på utsiden at det er en feil i repositoryet, og han eller hun retter feilen. Hvis rettingen overlever møtet med gatekeepers og oppfattes som korrekt så beholdes informasjonen i repositoryet. Hvis informasjonen strider mot gatekeepers kunnskap så kan gatekeeper fjerne endringen, korrekt informasjon vil da erstatte feil informasjon. Gatekeeper kan også besitte feil kunnskaper, og dermed beholde feilaktig informasjon. I det første tilfellet fungerer prosessen, mens i det siste tilfellet feiler prosessen.
+I noen tilfeller observerer en aktør på utsiden at det er en feil i datalageret, og han eller hun retter feilen. Hvis rettingen overlever møtet med gatekeepers og oppfattes som korrekt så beholdes informasjonen. Hvis informasjonen strider mot gatekeepers kunnskap så kan gatekeeper fjerne endringen, korrekt informasjon vil da erstatte feil informasjon. Gatekeeper kan også besitte feil kunnskaper, og dermed beholde feilaktig informasjon. I det første tilfellet fungerer prosessen, mens i det siste tilfellet feiler prosessen.
 
 Når forfatter og gatekeeper har motstridende oppfatning av hva som er riktig kan det oppstå tildels svært heftige diskusjoner, og på Wikipedia kan de utarte til redigeringskriger med svært høy temperatur.
 
@@ -37,13 +37,13 @@ Hvis feilaktig informasjon ble beholdt så kan den likevel bli påvist og fjerne
 
 For eksempel middelalderens oppfatning av at jorden var flat deles av ganske få, slik at tilsvarende få gatekeepers trengs for å motstå trykket.
 
-Hvis korrekt informasjon blir fjernet så må den legges inn på nytt hvis den skal komme inn i repositoryet. Hvis ingen av gatekeeperne har korrekt kunnskap så vil den bli fjernet på nytt, vi har et påtrykk utenfra for å få korrekt informasjon inn og et mottrykk innenfra for å holde informasjonen ute. Påtrykket utenfra og mottrykk innenfra skjer med gitte sannsynligheter og disse kan vi modellere selv om vi skal avstå fra dette nå.
+Hvis korrekt informasjon blir fjernet så må den legges inn på nytt hvis den skal komme inn i datalageret. Hvis ingen av gatekeeperne har korrekt kunnskap så vil den bli fjernet på nytt. Det er et påtrykk utenfra for å få korrekt informasjon inn og et mottrykk innenfra for å holde informasjonen ute. Påtrykket utenfra og mottrykk innenfra skjer med gitte sannsynligheter og disse kan modelleres.
 
-Hvis påtrykket utenfra er større enn mottrykket innenfra, og vi kun har feilretting, så vil alle feil bli rettet over tid. Hvis det skjer mer enn bare feilretting så vil ikke alle feil bli borte, mengden feil faller asymptotisk til en grenseverdi.
+Hvis påtrykket utenfra er større enn mottrykket innenfra, og kun skjer feilretting, så vil alle feil bli rettet over tid. Hvis det skjer mer enn bare feilretting så vil ikke alle feil bli borte, mengden feil faller asymptotisk til en grenseverdi.
 
 ### De fire prosessene
 
-Tilsvarende mekanismer driver fire forskjellige kontinuerlige prosesser som balanserer hverandre og som summerer til 1. Vi kan skru på en del underliggende parametre for å forskyve resultatet.
+Tilsvarende mekanismer driver fire forskjellige kontinuerlige prosesser som balanserer hverandre og som summerer til 1. Underliggende parametre kan endres for å forskyve resultatet.
 
 <table class="table table-bordered">
 <tr>
@@ -94,7 +94,7 @@ Hvis det er flere som er involvert i rollen som gatekeepers så vil en få en hy
 
 ### Peer review
 
-Hva en kaller personen eller personene som opptrer som gatekeepers spiller liten rolle for hva som rent faktisk skjer, men det spiller en stor rolle for hvordan vi oppfatter prosessen. Personene kan være del av et åpent nettsamfunn, med et flatt rollehierarki, og vi sier det er dugnadsbasert. Det samme skjer ved at forfatter og gatekeeper er forskjellige personer. Personene kan være journalister som opptrer som forfattere, og gatekeepers som er del av en redaksjon. Det samme skjer igjen ved at ved forfatter og gatekeeper er forskjellige personer. Personene kan være forskere som opptrer som forfattere, og reviewers som gjør peer review. Det samme skjer igjen ved at forskere og reviewers er forskjellige personer.
+Hva en kaller personen eller personene som opptrer som gatekeepers spiller liten rolle for hva som rent faktisk skjer, men det spiller en stor rolle for hvordan prosessen oppfattes. Personene kan være del av et åpent nettsamfunn, med et flatt rollehierarki, og det kan være dugnadsbasert. Det samme skjer ved at forfatter og gatekeeper er forskjellige personer. Personene kan være journalister som opptrer som forfattere, og gatekeepers som er del av en redaksjon. Det samme skjer igjen ved at ved forfatter og gatekeeper er forskjellige personer. Personene kan være forskere som opptrer som forfattere, og reviewers som gjør peer review. Det samme skjer igjen ved at forskere og reviewers er forskjellige personer.
 
 Kun i tilfeller hvor gatekeeper og forfatter er samme person en får den uheldige situasjonen i nedre høyre hjørne (lign. 1) hvor feil skrevet av forfatter overlever gatekeepers review.
 
