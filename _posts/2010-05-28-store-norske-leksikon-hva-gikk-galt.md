@@ -2,6 +2,7 @@
 layout: post
 language: nb
 created: 2010-05-28 20:00:00 (CET)
+updated: 2019-11-01 06:49:00 (CET)
 title: Store norske leksikon
 tagline: hva gikk galt?
 description: Sett utenfra, hva gikk galt med Store norske leksikon når de opererte sin tidligere lukkede utgave. 
@@ -12,6 +13,23 @@ categories :
 tags: Store norske leksikon, Fritt ord, Kunnskapsforlaget, monopol, statsstøtte
 licenses:
   - CC-BY-SA-4.0
+sources:
+  francis-sejersted-2010-05-06:
+    type: lecture
+    title: Om nødvendigheten av å videreutvikle Store Norske
+    authors:
+      - Sejersted, Francis
+    date: 2010-05-06
+    year: 2010
+    url: http://www.frittord.no/images/uploads/files/om_nodvendighetena_av_a_videreutvikle_store_norske.pdf
+  john-erling-blad-2011-04-28:
+    type: popular
+    title: Feilretting på Wikipedia og SNL
+    authors:
+      - Blad, John Erling
+    date: 2011-04-28
+    year: 2011
+    url: https://jeblad.github.io/encyclopedia/crowdsourcing/2011/04/28/feilretting-paa-wikipedia-og-store-norske.html
 ---
 
 Leksikondebatten ble i en periode veldig pompøs og nasjonalistisk. Debattanter påberopte seg både Grunnloven og at de representerte selve nasjonens arvesølv. Det er liten tvil om at en serie forhold ble håndtert feil, men det var (og er) ikke så opplagt at enkelte ting ikke ville fungere som planlagt. Skal leksikonet bestå bør om ikke annet noen av forholdene vurderes på nytt.
@@ -29,9 +47,9 @@ Et halvstatlig monopol i leksikonproduksjon for å tvinge brukere over på et fo
 
 ### Fagredaktører begrenser bidragsmassen
 
-Wikipedia sin produksjonsmodell er [crowdsourcing](http://no.wikipedia.org/wiki/Crowdsourcing) og inkluderer «pubertal klotring og utagerende og agiterende ytringer», men det bringer leksikonet fremover. Klotringen har skapt et produkt som i tilfellet med engelsk Wikipedia har nådd 3,3 millioner artikler. Det er over 20 ganger så stort i antall artikler som Store norske leksikon. Hvor mye større engelsk er enn Store norske leksikon ved en sammenligning både i bredde og dybde er uklart, men det er nok veldig mye større enn dette tallet.
+Wikipedia sin produksjonsmodell er [crowdsourcing](http://no.wikipedia.org/wiki/Crowdsourcing) og inkluderer «pubertal klotring og utagerende og agiterende ytringer» {% include cite.html id="francis-sejersted-2010-05-06" %}, men det bringer leksikonet fremover. Klotringen har skapt et produkt som i tilfellet med engelsk Wikipedia har nådd 3,3 millioner artikler. Det er over 20 ganger så mange artikler som Store norske leksikon. Hvor mye større engelsk er enn Store norske leksikon ved en sammenligning både i bredde og dybde er uklart, men det er nok veldig mye større enn dette tallet.
 
-Analyser av Wikipedia ([Utviklingstrekk i skribentmassen på Wikipedia](http://nettdugnad.origo.no/-/bulletin/show/573838_utviklingstrekk-i-skribentmassen-paa-wikipedia)) viser at det finnes noen begrensende faktorer. Ved å stille økte økte formelle krav til bidragsyterne, både faglig og som del av selve bidragsprosessen, så faller antall mulige bidragsytere. Likevel så er det største problemet at eksistensen av fagredaktører i seg selv begrenser antall bidragsytere, hvorfor skal noen skrive artikler når det allerede finnes en etablert fagredaktør som har dette ansvaret? Dørstokken bidragsyteren må over blir for stor.
+Analyser av Wikipedia ([Utviklingstrekk i skribentmassen på Wikipedia](/crowdsourcing/encyclopedia/2010/05/28/utviklingstrekk-i-skribentmassen-paa-wikipedia.html)) viser at det finnes noen begrensende faktorer. Ved å stille økte formelle krav til bidragsyterne, både faglig og som del av selve bidragsprosessen, så faller antall mulige bidragsytere. Likevel så er det største problemet at eksistensen av fagredaktører i seg selv begrenser antall bidragsytere, hvorfor skal noen skrive artikler når det allerede finnes en etablert fagredaktør som har dette ansvaret? Dørstokken bidragsyteren må over blir for stor.
 
 ### Sammenslåing av flere oppslagsverk er kaotisk
 
@@ -39,9 +57,9 @@ Det var kanskje en god ting å inkludere [Norsk biografisk leksikon](http://no.w
 
 ### Kvaliteten til artikler
 
-I presentasjoner av Store norske leksikon snakkes og skrives det om viktigheten av fagredaktører. Det snakkes om den avgjørende rollen redaktører har og fagansvarlige opphøyes til «fagansvarlig-instituttet». Fagansvarlige er identifiserte ovenfor redaksjonen, ikke nødvendigvis utad. Det argumenteres med at anonymitet kan lede ut i lettvintheter, slurv og det som verre er. At fagansvarlige er identifiserte holdes frem som *garanti* for artiklenes kvalitet.
+I presentasjoner av Store norske leksikon snakkes og skrives det om viktigheten av fagredaktører. Det snakkes om den avgjørende rollen redaktører har og fagansvarlige opphøyes til «fagansvarlig-instituttet» {% include cite.html id="francis-sejersted-2010-05-06" %}. At fagansvarlige er identifiserte holdes frem som en *garanti* for artiklenes kvalitet, men fagansvarlige er identifisert ovenfor redaksjonen, ikke nødvendigvis utad. Det argumenteres videre med at anonymitet kan lede ut i lettvintheter, slurv og det som verre er.
 
-Artikkelkvalitet er knyttet til flere forhold ved de enkelte artikler, ikke minst hvor stor restmengde av feil som blir igjen etter kvalitetssikringsprosesser. Restmengden av feil er direkte sammenhengende med antall personer som er involvert i feilrettingen. Slike prosesser er ikke unikt knyttet til eksistensen av en redaktør eller redaksjon, eller for den saks skyld identifiserte brukere. På bokmålsutgaven av Wikipedia er det et eget feiljegerkorps som tar de mest opplagte feilene, de har rollen som [patruljører](http://no.wikipedia.org/wiki/Wikipedia:Patruljering). Når disse har gjort den første delen av jobben så kommer det neste trinnet, lesere kan gå inn å rette feil de finner. Noen av de «retter» det som allerede er rett, men stort sett faller antall feil over tid.
+Artikkelkvalitet er knyttet til flere forhold ved de enkelte artikler, ikke minst hvor stor restmengde av feil som blir igjen etter kvalitetssikringsprosesser. Restmengden av feil er direkte koblet med antall personer som er involvert i feilrettingen. Slike prosesser er ikke unikt knyttet til eksistensen av en redaktør eller redaksjon, eller for den saks skyld identifiserte brukere. På bokmålsutgaven av Wikipedia er det et eget feiljegerkorps som tar de mest opplagte feilene, de har rollen som [patruljører](http://no.wikipedia.org/wiki/Wikipedia:Patruljering). Når disse har gjort den første delen av jobben så kommer det neste trinnet, lesere kan gå inn å rette feil de finner. Noen av de «retter» det som allerede er rett, men stort sett faller antall feil over tid. (Merk den senere artikkelen {% include cite.html id="john-erling-blad-2011-04-28" %})
 
 ### Horisontal og vertikal kvantitet
 
@@ -51,17 +69,17 @@ Garantier for at det viktigste er med har ikke med kvalitet i artikler, derimot 
 
 Leksikon produseres på bakgrunn av lemmalister som på forskjellig vis kan skapes eller kjøpes inn. Hvis de kjøpes inn fra andre leksikonaktører så vil de gjerne komme med et tilhørende innhold. Har lemmalistene slagside så vil disse propagere over i leksikonet. Kvaliteten på lemmalistene og det tilhørende innholdet er i stor grad det som er bestemmende for kvaliteten til et tradisjonelt leksikon.
 
-Wikipedia bruker også lemmalister, men den største mengden av artikler produseres uavhengig av slik. Dette gjør at Wikipedia i langt større grad enn noe tradisjonelt leksikon reflekterer brukernes informasjonsbehov. Dette er en av Wikipedias største styrker. Det er også hovedgrunnen til at en del støttespillere for tradisjonelle leksikon angriper Wikipedia; det mangler en stor mengde artikler som finnes i tradisjonelle leksikon. Se på nynorskutgaven av Wikipedia, selv om den er omtrent like stor som Caplex så er det likevel veldig lite overlapp mellom disse leksikonene. Dette kommer tydelig frem av listene over [nynorskartikler som også finnes i Caplex](http://nn.wikipedia.org/wiki/Wikipedia:Caplex/F). En tilsvarende sammenligning av hva som finnes av [bokmålsartikler som også finnes i Caplex](http://no.wikipedia.org/wiki/Wikipedia:Sammenligning_Caplex_%E2%80%93_Wikipedia) gir en langt høyere dekningsgrad, men fortsatt er ikke samtlige artikler i Caplex dekt av bokmålsutgaven.
+Wikipedia bruker også lemmalister, men den største mengden av artikler produseres uavhengig av slike. Dette gjør at Wikipedia i langt større grad enn noe tradisjonelt leksikon reflekterer brukernes informasjonsbehov. Dette er en av Wikipedias største styrker. Det er også hovedgrunnen til at en del støttespillere for tradisjonelle leksikon angriper Wikipedia; det mangler en stor mengde artikler som finnes i tradisjonelle leksikon. Se på nynorskutgaven av Wikipedia, selv om den er omtrent like stor som Caplex så er det likevel veldig lite overlapp mellom disse leksikonene. Dette kommer tydelig frem av listene over [nynorskartikler som også finnes i Caplex](http://nn.wikipedia.org/wiki/Wikipedia:Caplex/F). En tilsvarende sammenligning av hva som finnes av [bokmålsartikler som også finnes i Caplex](http://no.wikipedia.org/wiki/Wikipedia:Sammenligning_Caplex_%E2%80%93_Wikipedia) gir en langt høyere dekningsgrad, men fortsatt er ikke samtlige artikler i Caplex dekt av bokmålsutgaven.
 
-Bokmålsutgaven av Wikipedia er mye større enn Store norske leksikon (leksikonet uten tilleggene) og likevel er det masse i Store norske leksikon som ikke finnes i bokmålsutgaven. Bakgrunnen for de dramatiske forskjellene er at lemmalistene Store norske leksikon er produsert etter ikke samsvarer med settet av kunnskap som interesserer brukermassen til Wikipedia. Det ene er ikke «rett» kontra det annet, men det vil gi dramatisk mye større sannsynlighet for at leserne vil finne svaret på spørsmålet sitt i Wikipedia.
+Bokmålsutgaven av Wikipedia er mye større enn Store norske leksikon (leksikonet uten tilleggene) og likevel er det masse i Store norske leksikon som ikke finnes i bokmålsutgaven. Bakgrunnen for de dramatiske forskjellene er at lemmalistene Store norske leksikon er produsert etter samsvarer ikke med settet av kunnskap som interesserer brukermassen til Wikipedia. Det ene settet er ikke «rett» kontra det andre, men det er dramatisk mye større sannsynlighet for at leserne vil finne svar på sine spørsmål i Wikipedia.
 
 ### Lisensene
 
-Det er to lisenser i bruk på Store norske leksikon, en som baserer seg på tradisjonell opphavsrett og en som er en «fri» lisens. Den siste er et problem for den er mer problematisk enn proponenter av Store norske leksikon er villig til å innrømme.
+Det er to lisenser i bruk på Store norske leksikon, en som baserer seg på tradisjonell opphavsrett og en som er en «fri» lisens. Den siste er mer problematisk enn proponenter av Store norske leksikon er villig til å innrømme.
 
 Dette er nok et punkt hvor brukere av Wikipedia er mye mer politisk beviste enn de involverte i Store norske leksikon. Når sentrale personer i Store norske leksikon uttaler at det er uaktuelt og slippe andre til på artikler, samtidig som de bruker en lisens de kaller «fri» og som skal være lik det som brukes i Wikipedia, så er noe fundamentalt galt. Det er ikke slik lisenser fungerer i åpne prosjekter. Dette er med på å forvirre brukerne og skaper skepsis i markedet. Lisensen til Wikipedia er [Creative Commons Navngivelse-Del på samme vilkår 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0/deed.no) med presiseringer i [bruksvilkårene](http://no.wikipedia.org/wiki/Wikipedia:Opphavsrett).
 
-Det vil høyst sannsynlig være bedre å vise til [åndsverkloven](http://no.wikipedia.org/wiki/%C3%85ndsverkloven) og si at de som vil gjenbruke materiale kan gjøre dette innenfor gitte grenser, går de utenfor disse må de spørre om tillatelse. Den frie lisensen slik den nå er formulert sier at alle kan bruke materialet som er merket med «fri», inklusive Wikipedia. Den er heller ikke mulig å trekke tilbake for de artikler som er publisert med den, for dette er også en del av lisensieringen på Wikipedia -- og artiklene skulle jo kunne brukes på samme vis sier lisensen.
+Det vil høyst sannsynlig være bedre å vise til [åndsverkloven](http://no.wikipedia.org/wiki/%C3%85ndsverkloven) og si at de som vil gjenbruke materiale kan gjøre dette innenfor gitte grenser, går de utenfor disse må de spørre om tillatelse. Den frie lisensen slik den nå er formulert sier at alle kan bruke materialet som er merket med «fri», inklusive Wikipedia. Den er heller ikke mulig å trekke tilbake for de artikler som er publisert med den, for dette er også en del av lisensieringen på Wikipedia – og artiklene skulle jo kunne brukes på samme vis sier lisensen.
 
 ### Hjernestorm
 
