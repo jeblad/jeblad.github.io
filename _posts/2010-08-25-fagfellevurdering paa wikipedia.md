@@ -19,7 +19,8 @@ Det er mulig å få en form for fagfellevurdering til å fungere på Wikipedia u
 <!--mer-->
 
 ### Konstant feilrate
-Når noen skriver et innlegg på Wikipedia så formidler denne personen kunnskap slik han eller hun selv oppfatter den. Dette har både fordeler og ulemper. Fordelene er hovedsakelig at formidlingen skjer raskt, ulempen er hovedsakelig at formidlingen inneholder feil i personens forståelse av kunnskapen. En andel av leserne vil oppdage feilene, men i prosessen skriver de inn sine egne feiloppfatninger sammen med annen ny tekst. Fordi dette er kontinuerlige prosesser så vil den formidlede kunnskapen etterhvert inneholde en konstant andel feilaktig informasjon som er fremstilt som sannferdig kunnskap. Dette er beskrevet i artikkelen [Feilretting på Wikipedia](ttp://nettdugnad.origo.no/-/bulletin/show/589117_feilretting-paa-wikipedia) og i artikkelen [Crowdsourcing og peer review](ttp://nettdugnad.origo.no/-/bulletin/show/588542_crowdsourcing-og-peer-review.)
+
+Når noen skriver et innlegg på Wikipedia så formidler denne personen kunnskap slik han eller hun selv oppfatter den. Dette har både fordeler og ulemper. Fordelene er hovedsakelig at formidlingen skjer raskt, ulempen er hovedsakelig at formidlingen inneholder feil i personens forståelse av kunnskapen. En andel av leserne vil oppdage feilene, men i prosessen skriver de inn sine egne feiloppfatninger sammen med annen ny tekst. Fordi dette er kontinuerlige prosesser så vil den formidlede kunnskapen etterhvert inneholde en konstant andel feilaktig informasjon som er fremstilt som sannferdig kunnskap. Dette er beskrevet i artikkelen [Feilretting på Wikipedia](http://nettdugnad.origo.no/-/bulletin/show/589117_feilretting-paa-wikipedia) og i artikkelen [Crowdsourcing og peer review](ttp://nettdugnad.origo.no/-/bulletin/show/588542_crowdsourcing-og-peer-review.)
 
 Det vi trenger er noe som endrer prosessen slik at vi øker sjansen for at gode korreksjoner overlever og senker sjansen for at det samme skjer med feil.
 
@@ -59,7 +60,7 @@ Dette gjør at vi identifiserer personen istedenfor de faglige evnene. Vi sier a
 
 Denne modellens sterke side er at reviewers vil bli veldig bevist sin egen rolle, ikke minst da deres navn vil være synlig. Dette gjør at de vil legge arbeid å gi en god og fullstendig vurdering.
 
-### …men kan vi gjøre det enklere?
+### Forenkling
 
 De som gjør review er igrunnen ikke noe annet enn andre personer enn forfatteren. Vi kan derfor tenke oss et system hvor noen blir gitt muligheten til å gjøre en forenklet fagfellevurdering (et review) når de ikke har bidratt på artikkelen. Det vi ønsker er å skape et snitt av kunnskaper, hvoretter andre lesere bringes inn for å løse opp tvetydigheter.
 
