@@ -39,7 +39,7 @@ Det tredje kom fra en helt annen kant. Et annet firma ville vite om det var muli
 
 Så var det tilbake til første selskap. De hadde i mellomtiden kommet opp med et ønske om å kunne lenke til tekst som har definisjoner inne i artiklene. Problemet med slikt er dels å påvise definisjonene og dels at Wikipedia mangler interne ankere utover mellomtitler, slike finnes bare i begrenset grad på nettsteder. Resultatene som er oppnådd i forskningsarbeid er gjennomgående nokså dårlige så jeg sa at nei, noe slikt får vi ikke til for da må vi endre målartikkelen i Wikipedia. Så begynte jeg å tenke; vi får det ikke til nå men hva om vi gjør det samme som [Columbia Newsblaster](http://newsblaster.cs.columbia.edu/), vi kan lage en løsning som lager et sammendrag om samme temaet som omtales i den aktuelle setningen i kildeteksten. Vi har da et system som ikke peker direkte til et anker internt i målteksten, vi har et system som kan lage et sammendrag om samme omtalte tema. Dette sammendraget kan vi vise i kildeteksten, deretter overlater vi vurderingen av hvorvidt sammendraget understøtter kildeteksten til leseren. Er det en artikkel på Wikipedia med tilstrekkelig god ingress, fint, hvis ikke så lages et sammendrag on the fly.
 
-### Hva nå?
+### Hva nå
 
 Både tagging av en tekst og lenking er veldig likt hverandre, forskjellene består i hvordan resultatene av den underliggende algoritmen blir brukt. På engelsk er [OpenCalais](http://www.opencalais.com/) med forskjellige tilpasninger i verktøy slik som [Zemanta](http://www.zemanta.com/) det som er mest kjent. Bare synd at disse verktøyene fungerer såvidt dårlig på norsk.
 
