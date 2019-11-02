@@ -1,7 +1,7 @@
 ---
 layout : post
 language : nb
-date: 2010-05-28 01:00:00 (CET)
+created: 2010-05-28 01:00:00 (CET)
 title : Utviklingstrekk på Wikipedia
 tagline : finnes det en «dugnadskonstant»?
 description: En enkel analyse for å se om det kan finnes en «dugnadskonstant» som påvirker antall involverte i nettbaserte dugnader.
