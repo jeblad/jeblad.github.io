@@ -9,7 +9,8 @@ use_math: include
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {% include authors.html %}
   {% include date.html %}
-  <p class="excerpt">{{ post.excerpt }} {% include readmore.html %}</p>
+  {{ post.excerpt }}
+  {% include readmore.html %}
 {% endfor %}
 
 <!-- Pagination links -->
