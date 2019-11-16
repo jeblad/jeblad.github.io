@@ -1,28 +1,32 @@
 <p class="date">
-	{% if page.created %}
+	{% assign language = page.language | default: post.language %}
+	{% assign created = page.created | default: post.created %}
+	{% assign published = page.date | default: post.date %}
+	{% assign modified = page.modified | default: post.modified %}
+	{% if created %}
 	<div class="created">
-		{% if page.language == 'nb' %}
-		Opprettet: {{ page.created | date: "%d/%m/%y" }}
+		{% if language == 'nb' %}
+		Opprettet: {{ created | date: "%d/%m/%y" }}
 		{% else %}
-		Created: {{ page.created | date: "%m/%d/%y" }}
+		Created: {{ created | date: "%m/%d/%y" }}
 		{% endif %}
 	</div>
 	{% endif %}
-	{% if page.date %}
+	{% if published %}
 	<div class="published">
-		{% if page.language == 'nb' %}
-		Publisert: {{ page.date | date: "%d/%m/%y" }}
+		{% if language == 'nb' %}
+		Publisert: {{ published | date: "%d/%m/%y" }}
 		{% else %}
-		Published: {{ page.date | date: "%m/%d/%y" }}
+		Published: {{ published | date: "%m/%d/%y" }}
 		{% endif %}
 	</div>
 	{% endif %}
-	{% if page.modified %}
+	{% if modified %}
 	<div class="modified">
-		{% if page.language == 'nb' %}
-		Endret: {{ page.modified | date: "%d/%m/%y" }}
+		{% if language == 'nb' %}
+		Endret: {{ modified | date: "%d/%m/%y" }}
 		{% else %}
-		Modified: {{ page.modified | date: "%m/%d/%y" }}
+		Modified: {{ modified | date: "%m/%d/%y" }}
 		{% endif %}
 	</div>
 	{% endif %}
