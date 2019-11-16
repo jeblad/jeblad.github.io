@@ -1,7 +1,1 @@
-<a class="readmore" href="{{ page.url | absolute_url }}">
-	{% if page.language == 'nb' %}
-	Les mer…
-	{% else %}
-	Read more…
-	{% endif %}
-</a>
+<a class="readmore" href="{{ page.url | absolute_url }}">{% if page.language == 'nb' %}Les mer…{% else %}Read more…{% endif %}</a>
