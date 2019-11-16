@@ -1,5 +1,6 @@
 <p class="authors">
-{% for nick in page.authors %}
+{% assign nicks = page.authors | default: post.authors %}
+{% for nick in nicks %}
 	{% assign authors = site.authors | where: "nick", nick %}
 	{% for author in authors %}
 	<a class="author" href="{{author.url | absolute_url }}">{{ author.name }}</a>
