@@ -52,8 +52,8 @@ h2, h3, h4, h5, h6 {
 }
 h2 a, h3 a, h4 a, h5 a, h6 a,
 h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link {
-	color: rgba(48,48,48,0.87);
-	/*color: rgba(61,130,249,1);*/
+	/*color: rgba(48,48,48,0.87);*/
+	color: rgba(61,130,249,1);
 	font-weight: inherit;
 }
 h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
@@ -284,5 +284,6 @@ a {
 }
 */
 a.readmore {
+	display: inline-block;
 	font-weight: bold;
 }
