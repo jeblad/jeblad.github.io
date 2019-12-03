@@ -73,4 +73,4 @@ Artificial intelligence is split in several more subfields. There are hard, soft
 
 Then it is this highly hot topic of embodied AI. Is it necessary for an strong AI to have a body, and to experience the world? Some researchers say so, while other disagree. If it is so, then it will strongly limit what can be called a strong AI. It will also make a question *what is a sufficient body*. Is it necessary for a sentient being to open a fridge, take out a beer, and watch CNN?
 
-Be careful when describing something as an “AI” if it is merely a “narrow AI”, use other terms like “machine learning”, they are far more descriptive. Calling an RPA or similar systems for intelligent gives a false pretense of real AI, which such systems are not.
+Be careful when describing something as an “AI” if it is merely a “narrow AI”. Use other terms like “machine learning”, they are far more descriptive. Calling an RPA or similar systems for intelligent gives a false pretense of real AI, which such systems are not.
