@@ -9,7 +9,7 @@ authors:
   - jeblad
 categories :
   - other
-tags: machine learning, artificial intelligence
+tags: robotic process automation, robotics, RPA, machine learning, artificial intelligence, weak AI, strong AI, hard AI, soft AI, wet AI embodied AI
 licenses:
   - CC-BY-SA-4.0
 sources:
