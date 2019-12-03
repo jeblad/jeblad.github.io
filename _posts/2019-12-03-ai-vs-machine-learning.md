@@ -1,7 +1,7 @@
 ---
 layout: post
 language: en
-date: 2019-12-01 16:15:00 (CET)
+created: 2019-12-01 16:15:00 (CET)
 title: AI vs Machine Learning
 tagline: the difference between artificial intelligence and machine learning
 description: An AI system imply reasoning, while machine learning just imply correlation.
