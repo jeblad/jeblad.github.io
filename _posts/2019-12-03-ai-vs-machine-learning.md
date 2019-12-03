@@ -65,7 +65,7 @@ A classifier has a kind of knowledge base that describes whats being classified,
 
 ### Robotics
 
-Robotic process automation (RPA) builds on expert systems, and they have a knowledge base and an inference engine, yet historically they was hand coded and could not learn. The more modern counterpart, the RPA, has often a limited ability to learn. A system living sort of in between has an inference engine with a local knowledge base that stores knowledge itself. When trained an RPA act like very limited human intelligence on the field for a narrow and dedicated purpose – it is a lookalike. It does not try to implement a part of mind, so it is not a weak AI. Still, it is so tempting to call it an “AI”.
+Robotic process automation (RPA) builds on expert systems, and have a knowledge base and an inference engine. Historically they was hand coded and could not learn. The more modern counterpart, the RPA, has often a limited ability to learn. A system living sort of in between has an inference engine with a local knowledge base that stores knowledge itself. When trained an RPA act like very limited human intelligence on the field for a narrow and dedicated purpose – it is a lookalike. It does not try to implement a part of mind, so it is not a weak AI. Still, it is so tempting to call it an “AI”.
 
 ### … and there are more
 
