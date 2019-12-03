@@ -2,8 +2,8 @@
 layout: post
 language: en
 created: 2019-12-01 16:15:00 (CET)
-title: AI vs Machine Learning
-tagline: the difference between artificial intelligence and machine learning
+title: AI vs ML
+tagline: real differences between AI and ML
 description: An AI system imply reasoning, while machine learning just imply correlation.
 authors:
   - jeblad
