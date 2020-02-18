@@ -3,7 +3,7 @@ layout: post
 language: en
 created: 2020-01-25 22:15:00 (CET)
 title: Strong EPSP
-tagline: strong excitatory postsynaptic potentials
+tagline: strong synaptic response and multimodality
 categories :
   - neural nets
 tags :
