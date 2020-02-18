@@ -11,7 +11,8 @@ tags :
   - strong epsp
   - chemical synapse
   - excitatory synapse
-description: When a synapse responds strongly to an excitatory postsynaptic potential (EPSP) it fundamentally changes properties.
+  - multimodal response
+description: When a synapse responds strongly to an excitatory postsynaptic potential (EPSP) the neuron fundamentally changes properties.
 authors:
   - jeblad
 licenses:
