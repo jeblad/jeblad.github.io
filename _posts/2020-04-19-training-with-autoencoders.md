@@ -77,8 +77,16 @@ The same holds for transfer learning in general, it is the same subspace the hid
 
 ### Discussion
 
-By using an autoencoder it is possible to do massive initial training without labeled data, which is often a major hurdle. Training the autoencoder can also give loss that can be backpropagated into previous layers, thus being used for training outside the autoencoder itself. In those cases it will modify its own feature extractors, and optimize loss it can't remove with its internal representation. (Note that this loss very quicly gets a zero mean, and will thus vanish.)
+By using an autoencoder it is possible to do massive initial training without labeled data, which is often a major hurdle. With ordinary supervised learning we need labeled data, which is expensive. When training with an autoencoder, that is not necessary, as the input samples themselves act as target values.
 
-After the initial training it is possible to train a final layer on the internal representation, which can be a vector with rank several order below the input layer. That reduces the amount of labeled training samples, which may make it possible to model the problem with a neural network.
+It may not be obvious, but the input to later layers comes from the layer creating the internal state, the bottleneck layer, and not from the final layer of the autoencoder. 
+
+After the initial training it is possible to train a final layer on the internal representation, which can be a vector with rank several order below the input layer. That reduces the necessary amount of labeled training samples, which may make it possible to model the problem with a neural network.
+
+Training the autoencoder can also give loss that can be backpropagated into previous layers, thus being used for training outside the autoencoder itself. In those cases it will modify its own feature extractors, and optimize loss it can't remove with its internal representation.
+
+The loss goes very quickly to a zero mean for the entries that maps to a clean internal representation, and will thus vanish, but a residue error will persist from the autoencoder. It is that residue error that will drive adaptations in previous layers.
+
+In this case the loss can be taken from the input layer of the autoencoder, as this is the target value. By doing so several layers of backpropagation can be skipped, and vanishing gradient avoided.
 
 It is even possible to learn an autoencoder with several residual layers, where each layer uses a shared input layer. This kind of construct facilitate a quite fast convergence.
