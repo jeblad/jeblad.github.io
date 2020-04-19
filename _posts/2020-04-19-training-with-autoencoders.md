@@ -77,7 +77,7 @@ The same holds for transfer learning in general, it is the same subspace the hid
 
 ### Discussion
 
-By using an autoencoder it is possible to do massive initial training without labeled data, which is often a major hurdle. Training the autoencoder can also give loss that can be backpropagated into previous layers, thus being used for training outside the autoencoder itself. In those cases it will modify its own feature extractors, and optimize loss it can't remove with its internal representation.
+By using an autoencoder it is possible to do massive initial training without labeled data, which is often a major hurdle. Training the autoencoder can also give loss that can be backpropagated into previous layers, thus being used for training outside the autoencoder itself. In those cases it will modify its own feature extractors, and optimize loss it can't remove with its internal representation. (Note that this loss very quicly gets a zero mean, and will thus vanish.)
 
 After the initial training it is possible to train a final layer on the internal representation, which can be a vector with rank several order below the input layer. That reduces the amount of labeled training samples, which may make it possible to model the problem with a neural network.
 
