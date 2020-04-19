@@ -101,6 +101,6 @@ Kvalitet og kvantitet ser jeg ikke på som noe hasteproblem, men det må løses.
 
 ### Oppsummering
 
-Bokmålsutgaven av Wikipedia vil neppe dekke stoffet som nå er i Store norske leksikon, heller ikke tilnærmelsesvis, før bokmålswikipedia er svært mye større. Kanskje kan utgaven bli en erstatning når den nærmer seg en million artikler. Det hindrer ikke at det finnes masse artikler i nynorskutgaven allerede idag som ikke finnes i Store norske leksikon, og at det i fremtiden vil finnes masse artikler i Store norske leksikon som ikke vil være i bokmålsutgaven.
+Bokmålsutgaven av Wikipedia vil neppe dekke stoffet som nå er i Store norske leksikon, heller ikke tilnærmelsesvis, før bokmålswikipedia er svært mye større. Kanskje kan utgaven bli en erstatning når den nærmer seg én million artikler. Det hindrer ikke at det finnes masse artikler i nynorskutgaven allerede idag som ikke finnes i Store norske leksikon, og at det i fremtiden vil finnes masse artikler i Store norske leksikon som ikke vil være i bokmålsutgaven.
 
 Grunnen til at det finnes utrolig bra artikler i ett prosjekt som ikke finnes i andre prosjekt (eller i Store norske leksikon) er at prosjektene blir drevet frem i rykk og napp og nokså tilfeldig. Wikipedia er ikke ferdig og vil ikke bli ferdig på mange år, men prosjektene er like fult brukbare og av overraskende god kvalitet. Wikipedia er ikke bedre eller dårligere enn Store norske leksikon – det er annerledes.
