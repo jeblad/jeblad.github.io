@@ -1,6 +1,6 @@
 ---
 layout : license
-spdx : CC-BY-NC-ND-4.0
+spdx : cc-by-nc-nd-4.0
 title : CC by-nc-nd 4.0
 name: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
 tagline : Attribution-NonCommercial-NoDerivatives 4.0 International
