@@ -30,7 +30,7 @@ What an autoencoder do is to adapt its weights to make the best recreation for a
 
 The input in our two scenarios can be described as samples from the system under observation. That system has some function, but unknown to us, but it will be observable through the samples. If the system is continuous, differentiable, and observable, then there exist a learnable model for the system (although it may not be controllable).
 
-<p class="note">An important point; the system isn't some random system, but the samples may be drawn according to some distribution. The samples lay on the manifold, that is only truthy values exists, and there may be no way to extend outside the manifold.</p>
+<p class="note">An important point; the system isn't some random system, but the samples may be drawn according to some distribution. The samples lay on the manifold, that is only truthy values exists, and there may be no way to extend outside the manifold. To be able to analyze the encoding it is common practice to assume the inputs to be drawn at random from a unknown distribution, but that isn't quite correct.</p>
 
 Now assume the model is a neural net, and it has some smaller vector as an internal representation. That is, it has a smaller hidden layer. Because it can not fully encode the input space, it will try to recode the input into the best approximation, and this subspace will be some implementation of a manifold from the input space. The samples lay on the manifold, and the simplification is given by the loss.
 
