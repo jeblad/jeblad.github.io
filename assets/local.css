@@ -259,10 +259,12 @@ p > img.center + em {
 	width: 80%;
 	margin: 0 auto;
 }
-.authors > a.author:after {
+.authors > a.author:after,
+.licenses > a.licenses:after {
 	content: ',';
 }
-.authors > a.author:last-child:after {
+.authors > a.author:last-child:after,
+.licenses > a.licenses:last-child:after {
 	content: none;
 }
 ol.sources li:target {
