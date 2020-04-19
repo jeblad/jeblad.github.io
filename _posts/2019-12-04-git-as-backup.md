@@ -14,7 +14,7 @@ tags:
   - backup
   - secure store
 licenses:
-  - CC-BY-SA-4.0
+  - cc-by-sa-4.0
 ---
 
 Some years ago I got a really weird phone call. I had worked on a project several years earlier, it was a project where code should not be taken outside the property, and they had lost their code. The call was rather frankly; did I take a copy outside the property, because (ehm) they had lost the code. Of course I did not have a copy, or rather I did not know about a copy at that time. How can you create a secure backup in a git development environment without to much hassle, and is it possible at all?

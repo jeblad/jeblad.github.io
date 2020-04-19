@@ -16,7 +16,7 @@ tags :
 authors:
   - jeblad
 licenses:
-  - ccbyncnd
+  - cc-by-nc-nd-4.0
 ---
 
 During a hackaton I got a problem where we had very little [labeled data](https://en.wikipedia.org/wiki/Labeled_data) (almost nothing at all) and no easy way to get more. I proposed a solution with an [autoencoder](https://en.wikipedia.org/wiki/Autoencoder), it is pretty stright-forward, but later I started wondering why so few uses this solution instead of trying to wrangle more labeled data (which usually are quite expensive). I believe it partly has something to do with the idea that real data do something magical with the input data, and partly that most users overfocus on what they want to get out of the network.

@@ -11,7 +11,7 @@ categories :
   - other
 tags: wikipedia, pending changes, stable versions, flagged revisions, quality, patrolling, reviewer
 licenses:
-  - CC-BY-SA-4.0
+  - cc-by-sa-4.0
 ---
 
 Under en diskusjon om e-faktura for noen år siden ble det påpekt at det største volumet av regnskapsunderlag ikke var fakturaer, men kvitteringer fra alle mulige småkjøp. SVT Rapport mener det årlig skrives ut 1.500.000.000 kvitteringer i Sverige og at dette representerer 60.000 felte trær. Disse kvitteringene er tidkrevende å legge inn i regnskapssystemene, og under den manuelle inntastingen er også lett å gjøre feil. I tillegg er bruk av personlige regnskapssystemer vanskeliggjort ved at systemene er så arbeidskrevende. Hvis dette tilsynelatende trivielle problemet kan løses som en felles dugnad så vil det gi svært store tidsbesparelser for både privatkunder, bedrifter og offentlige organisasjoner.

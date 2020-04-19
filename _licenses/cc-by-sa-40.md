@@ -1,6 +1,6 @@
 ---
 layout : license
-spdx : CC-BY-SA-4.0
+spdx : cc-by-sa-4.0
 title : CC by-sa 4.0
 name: Creative Commons Attribution-ShareAlike 4.0 International
 tagline : Attribution-ShareAlike 4.0 International

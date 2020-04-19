@@ -11,7 +11,7 @@ categories:
   - cloud storage
 tags: security
 licenses:
-  - CC-BY-SA-4.0
+  - cc-by-sa-4.0
 ---
 
 Etter å ha skrevet på kode for [fillagring i nettskya](https://en.wikipedia.org/wiki/Cloud_storage) og funnet at dette er særdeles usikkert, ble det en diskusjon om hva som er mulig å få til. Skytjenester er på ene siden veldig attraktivt fordi en kan få tilgang til tjenester fra mange steder, samtidig er det en honningkrukke for de som ønsker å snoke i andres gjøren og laden. Det her ble ikke bare et attraktivt problem som trengte en løsning, det ble en utfordring. Det er mulig å få til sikker lagring i nettskya, men problemet er sammensatt og antakelig større enn det en kan nå over som et hobbyprosjekt. Dermed kommer tanken om dette er noe som er egnet for en [nettdugnad](https://en.wikipedia.org/wiki/Crowdsourcing).

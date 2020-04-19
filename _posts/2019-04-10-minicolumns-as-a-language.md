@@ -17,7 +17,7 @@ description: >-
 authors:
   - jeblad
 licenses:
-  - CC-BY-NC-ND-4.0
+  - cc-by-nc-nd-4.0
 theorems:
   proposition:
     title: Language for Simple World

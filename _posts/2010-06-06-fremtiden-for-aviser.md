@@ -9,9 +9,12 @@ authors:
   - jeblad
 categories:
   - news media
-tags: news papers, media
+tags:
+  - news papers
+  - media outlet
+  - future trends
 licenses:
-  - CC-BY-SA-4.0
+  - cc-by-sa-4.0
 ---
 
 Det er ingen fremtid for papiraviser. Du kan like godt venne deg til tanken. Papir er dødt. Betyr det at journalistikken er død? Så absolutt ikke! Det vil alltid være et behov for å formidle informasjon, og noen til å gjøre jobben.

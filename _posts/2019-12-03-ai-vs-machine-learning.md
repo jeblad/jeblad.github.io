@@ -11,7 +11,7 @@ categories :
   - other
 tags: robotic process automation, robotics, RPA, machine learning, artificial intelligence, weak AI, strong AI, hard AI, soft AI, wet AI embodied AI
 licenses:
-  - CC-BY-SA-4.0
+  - cc-by-sa-4.0
 sources:
   Deloitte:robots-coming-global-business-services:
     publisher: Deloitte United Kingdom

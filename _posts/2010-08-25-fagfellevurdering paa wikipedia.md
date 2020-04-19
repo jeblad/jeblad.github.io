@@ -11,7 +11,7 @@ categories :
   - encyclopedia
 tags: wikipedia, fagfelle, peer review
 licenses:
-  - CC-BY-SA-4.0
+  - cc-by-sa-4.0
 ---
 
 Det er mulig å få en form for fagfellevurdering til å fungere på Wikipedia uten alt for store og gjennomgripende endringer. Det er til og med mulig å få til en løsning som fungerer *bedre* enn tradisjonell fagfellevurdering. De nødvendige endringene er moderate og vil ha liten betydning for brukeres mulighet til å bidra i et levende leksikon.

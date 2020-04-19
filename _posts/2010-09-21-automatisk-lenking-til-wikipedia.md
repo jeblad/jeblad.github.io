@@ -3,14 +3,20 @@ layout : post
 language : nb
 date: 2010-09-21 15:00:00 (CET)
 title : Automatisk lenking til Wikipedia
-tagline : og kanskje tagging, lenking og innbygging av lignende innhold
-description: Automatisk lenking til bakgrunnsmateriale .
+tagline : tagging, lenking og innbygging av leksikalskt innhold
+description: Automatisk lenking til tematisk bakgrunnsmateriale i Wikipedia fra eksterne artikler.
 authors:
   - jeblad
 categories : encyclopedia
-tags : linking, tagging, lemmatizing, stemming, embedding, mashup
+tags :
+  - linking
+  - tagging
+  - lemmatizing
+  - stemming
+  - embedding
+  - mashup
 licenses:
-  - CC-BY-NC-ND-4.0
+  - cc-by-nc-nd-4.0
 ---
 
 Mange har sett de nokså fascinerende løsningene som har dukket opp som gjør det mulig å lenke opp en tekst automatisk eller halvautomatisk. Noen av de mest interessante systemene gjør det mulig å få til slik lenking ikke bare til Wikipedia, men til aktuelle artikler på nettet. Funksjonaliteten til de mest avanserte løsningene er det ikke så lett å gjenskape, men kanskje er det mulig å få til litt av dem. Og kanskje vi kan få til noen nye og spennende løsninger.
@@ -29,7 +35,8 @@ Det er mange aktuelle teorier og resultater om hvordan det her kan løses. Disse
 
 Kanskje viktigere er hva en bruker lenkingen til. Diskusjonene med selskapet startet med et ønske om å påvise ord og fraser som kunne brukes som tags. Dette er et nokså enkelt problem hvor retting av feil hovedsakelig består i å godkjenne de valgte termene. Det er flere som leverer slike løsninger for bloggverktøy, og forskjellene er for en stor del drevet av krav til nøyaktighet og hvorvidt det underliggende systemet klarer å levere tilstrekkelig gode resultater. Hvis det underliggende systemet leverer for dårlige resultater så må brukergrensesnittet være effektivt å jobbe med for å rette feilene, hvis det underliggende systemet returnerer svært gode resultater så kan kanskje brukergrensesnittet forenkles eller fjernes helt.
 
-[![Figuren viser en lenkedialog.](/assets/images/linking/automatic-linking_250x136.png "Skjermdump av lenkedialog")](/assets/images/linking/automatic-linking_1024x1024.png)
+[![Figuren viser en lenkedialog.](/assets/images/linking/automatic-linking_250x136.png "Skjermdump av lenkedialog")](/assets/images/linking/automatic-linking_1024x1024.png){:.tiny.center}
+***Figur 1**: Skjermdump av lenkedialog*
 
 Det neste det ble sett på var om vi kunne få til lenker til de aktuelle artiklene. Et grafisk grensesnitt for å godkjenne slik lenking er noe mer kompleks, men i Wikipedia kan vi tenke oss at lenkedialogen i den nye [WikiEditor](http://www.mediawiki.org/wiki/Extension:UsabilityInitiative#WikiEditor) endres slik at det er mulig å velge i en liste av anbefalte lenker. Dette kan også utvides slik at en kan steppe forover og bakover i lista av anbefalte lenker. Hvis ord og fraser mangler lenkemerking så settes det på om brukeren trykker «Ok» etter at parametre er automatisk fylt ut. Samtidig så må systemet passe på at lenker plasseres første gang et ord eller frase brukes. Andre systemer enn Mediawiki vil måtte ha en litt annerledes editor. Dagens dialogboks er ikke spesielt hjelpsom med å sette på lenking, enig?
 

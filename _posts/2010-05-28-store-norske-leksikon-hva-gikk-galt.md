@@ -10,9 +10,14 @@ authors:
   - jeblad
 categories :
   - encyclopedia
-tags: Store norske leksikon, Fritt ord, Kunnskapsforlaget, monopol, statsstøtte
+tags:
+  - Store norske leksikon
+  - Fritt ord
+  - Kunnskapsforlaget
+  - monopol
+  - statsstøtte
 licenses:
-  - CC-BY-SA-4.0
+  - cc-by-sa-4.0
 sources:
   francis-sejersted-2010-05-06:
     type: lecture

@@ -16,7 +16,7 @@ description: When a synapse responds strongly to an excitatory postsynaptic pote
 authors:
   - jeblad
 licenses:
-  - ccbyncnd
+  - cc-by-nc-nd-4.0
 ---
 
 Some time ago I read a story on how an [excitatory synapse](https://en.wikipedia.org/wiki/Excitatory_synapse) could fire a much stronger [excitatory postsynaptic potential](https://en.wikipedia.org/wiki/Excitatory_postsynaptic_potential) (EPSP) if the local [dendrite](https://en.wikipedia.org/wiki/Dendrite) already was sufficiently excited. The response in this case was of the order 200 times stronger. This radically changes the behavior of the [neuron](https://en.wikipedia.org/wiki/Neuron), it does not anymore have an [unimodal response](https://en.wikipedia.org/wiki/Unimodality), it has a [multimodal response](https://en.wikipedia.org/wiki/Multimodal_distribution).
