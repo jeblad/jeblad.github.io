@@ -1,40 +1,40 @@
 {% if page.sources %}
-<h3>Sources</h3>
-<ol class="sources">
-{% for source in page.sources %}
-  {% assign item = source[1] %}
-  <li id="{{ source[0] }}" class="source">
-  {% if item.authors %}
-  <span class="authors">{{ item.authors | join: "; " }};</span>
-  {% endif %}
-  {% if item.lecturers %}
-  <span class="lecturers">{{ item.lecturers | join: "; " }};</span>
-  {% endif %}
-  {% if item.url %}
-  <a class="title" href="{{ item.url }}">{{ item.title | default: 'unknown title' }}</a>
-  {% if item.archivePrefix or item.collection %}[{{ item.archivePrefix | default: item.collection }}]{% endif %}
-  {% else %}
-  <span class="title">{{ item.title | default: 'unknown title' }}</span>
-  {% endif %}
-  {% if item.year or item.date %}
-  (<span class="date">{{ item.date | default: item.year }}</span>)
-  {% endif %}
-  {% if item.journal %}
-  <span class="journal">{{ item.journal }}</span>
-  {% endif %}
-  {% if item.volume %}
-  volume <span class="volume">{{ item.volume }}</span>
-  {% endif %}
-  {% if item.issue %}
-  issue <span class="issue">{{ item.issue }}</span>
-  {% endif %}
-  {% if item.conference %}
-  <span class="conference">{{ item.conference }}</span>
-  {% endif %}
-  {% if item.publisher %}
-  <span class="publisher">{{ item.publisher }}</span>
-  {% endif %}
-  </li>
-{% endfor %}
-</ol>
+	<h3>Sources</h3>
+	<ol class="sources">
+	{% for source in page.sources %}
+		{% assign item = source[1] %}
+		<li id="{{ source[0] }}" class="source">
+		{% if item.authors %}
+			<span class="authors">{{ item.authors | join: "; " }};</span>
+		{% endif %}
+		{% if item.lecturers %}
+			<span class="lecturers">{{ item.lecturers | join: "; " }};</span>
+		{% endif %}
+		{% if item.url %}
+			<a class="title" href="{{ item.url }}">{{ item.title | default: 'unknown title' }}</a>
+		{% if item.archivePrefix or item.collection %}[{{ item.archivePrefix | default: item.collection }}]{% endif %}
+		{% else %}
+			<span class="title">{{ item.title | default: 'unknown title' }}</span>
+		{% endif %}
+		{% if item.year or item.date %}
+			(<span class="date">{{ item.date | default: item.year }}</span>)
+		{% endif %}
+		{% if item.journal %}
+			<span class="journal">{{ item.journal }}</span>
+		{% endif %}
+		{% if item.volume %}
+			volume <span class="volume">{{ item.volume }}</span>
+		{% endif %}
+		{% if item.issue %}
+			issue <span class="issue">{{ item.issue }}</span>
+		{% endif %}
+		{% if item.conference %}
+			<span class="conference">{{ item.conference }}</span>
+		{% endif %}
+		{% if item.publisher %}
+			<span class="publisher">{{ item.publisher }}</span>
+		{% endif %}
+		</li>
+	{% endfor %}
+	</ol>
 {% endif %}
