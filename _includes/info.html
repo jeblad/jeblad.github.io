@@ -1,12 +1,12 @@
 {% if page.info %}
-<div class="metadata">
-{% for set in page.info %}
-<div class="header">{{ set[1].title | default: set[0] }}</div>
-<ul>
-{% for entry in set[1].entries %}
-<li>{{ entry | markdownify }}</li>
-{% endfor %}
-</ul>
-{% endfor %}
-</div>
+	<div class="metadata">
+	{% for set in page.info %}
+		<div class="header">{{ set[1].title | default: set[0] }}</div>
+		<ul>
+		{% for entry in set[1].entries %}
+			<li>{{ entry | markdownify }}</li>
+		{% endfor %}
+		</ul>
+	{% endfor %}
+	</div>
 {% endif %}
