@@ -2,6 +2,7 @@
 layout: post
 language: en
 created: 2020-04-18 22:00:00 (CET)
+modified: 2020-04-25 22:17:00 (CET)
 title: training with autoencoders
 tagline: unsupervised learning and autoencoders
 description: How to get around little or missing labeled data by using an autoencoder.
@@ -36,7 +37,7 @@ Now assume the model is a neural net, and it has some smaller vector as an inter
 
 ### Supervised learning
 
-In [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) the network is trained with labeled data that tells the network what is the correct output $\mathbf{y}$, our target vector $\mathbf{x}$ given an input vector $\mathbf{x}$.
+In [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) the network is trained with labeled data that tells the network what is the correct output $\mathbf{t}$, given an input vector $\mathbf{x}$, while the network gives $\mathbf{y}$.
 
 $$
 \begin{equation}
@@ -54,7 +55,7 @@ The input is known, but we must label each one of them to be able to learn anyth
 
 ### Autoencoder
 
-An autoencoder takes an input vector $\mathbf{x}$, that is target is equal to input $\mathbf{t} \equiv \mathbf{x}$, and tries to recreate the input (or target) as the output $\mathbf{y}$. The loss is
+An autoencoder takes an input vector $\mathbf{x}$, which is the target and is equal to input $\mathbf{t} \equiv \mathbf{x}$, and tries to recreate the input (or target) as the output $\mathbf{y}$. The loss is
 
 $$
 \begin{equation}
