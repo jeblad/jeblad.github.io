@@ -1,9 +1,9 @@
 ---
 layout: post
 language: en
-created: 2020-04-19 2:59:58 (CET)
+created: 2020-04-18 22:00:00 (CET)
 title: training with autoencoders
-tagline: unsupervised training and autoencoders
+tagline: unsupervised learning and autoencoders
 description: How to get around little or missing labeled data by using an autoencoder.
 categories :
   - neural nets
