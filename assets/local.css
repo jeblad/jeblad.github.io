@@ -78,6 +78,12 @@ h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
 .date {
 	margin-bottom: 0.5em;
 }
+.date span::after {
+	content: ",";
+}
+.date span:last-child::after {
+	content: "";
+}
 .authors + p,
 .date + p {
 	margin-top: 1em;

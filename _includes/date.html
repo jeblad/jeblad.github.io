@@ -3,31 +3,29 @@
 {% assign published = page.date | default: post.date %}
 {% assign modified = page.modified | default: post.modified %}
 <div class="date">
-	{% if created %}
-	<div class="created">
-		{% if language == 'nb' %}
-		Opprettet: {{ created | date: "%d/%m/%y" }}
-		{% else %}
-		Created: {{ created | date: "%m/%d/%y" }}
-		{% endif %}
-	</div>
+{% if created %}
+	{% if language == 'nb' %}
+	<span title="Opprettet">{{ created | date: "%d/%m/%y" }}</span>
+	{% else %}
+	<span title="Created">{{ created | date: "%m/%d/%y" }}</span>
 	{% endif %}
-	{% if published %}
-	<div class="published">
-		{% if language == 'nb' %}
-		Publisert: {{ published | date: "%d/%m/%y" }}
-		{% else %}
-		Published: {{ published | date: "%m/%d/%y" }}
-		{% endif %}
-	</div>
+{% endif %}
+{% if published %}
+	{% if language == 'nb' %}
+	<span title="Publisert">{{ published | date: "%d/%m/%y" }}</span>
+	{% else %}
+	<span title="Published">{{ published | date: "%m/%d/%y" }}</span>
 	{% endif %}
-	{% if modified %}
-	<div class="modified">
-		{% if language == 'nb' %}
-		Endret: {{ modified | date: "%d/%m/%y" }}
-		{% else %}
-		Modified: {{ modified | date: "%m/%d/%y" }}
-		{% endif %}
-	</div>
+{% endif %}
+{% if modified %}
+	{% if language == 'nb' %}
+		{% for mdate in modified %}
+			<span title="Endret">{{ mdate | date: "%d/%m/%y" }}</span>
+		{% endfor %}
+	{% else %}
+		{% for mdate in modified %}
+			<span title="Modified">{{ mdate | date: "%m/%d/%y" }}</span>
+		{% endfor %}
 	{% endif %}
+{% endif %}
 </div>
