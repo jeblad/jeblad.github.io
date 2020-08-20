@@ -17,8 +17,8 @@ tagline: the strange similarities
 tags : formal languages, minicolumn
 parent: neural_nets
 description: >-
-  Describing minicolumns as functions connecting domains has similarities to formal semantics, and
-  to inference in a neural nets.
+  Describing minicolumns as functions connecting and transforming symbols has similarities to
+  formal semantics and inference in a neural nets.
 authors:
   - jeblad
 licenses:
