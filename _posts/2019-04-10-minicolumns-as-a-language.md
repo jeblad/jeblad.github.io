@@ -1,10 +1,15 @@
 ---
 layout: post
 language: en
-date: 2019-04-10 03:20:00 (CET)
+created: 2019-04-10 03:20:00 (CET)
+modified:
+  - 2019-04-10
+  - 2019-05-01
+  - 2020-08-20
 provision:
   2019-04-10: Created article
   2019-05-01: Added sources
+  2020-08-20: Added comments about Searle
 categories:
   - neural nets
 title: Minicolumns as a language
@@ -112,6 +117,8 @@ There are some striking similarities between [reasoning systems](https://en.wiki
 
 <!--more-->
 
+{% include reworked.html %}
+
 These similarities are apparent when neural nets are used in inference engines, and not merely as correlation engines. Many of the current high-profile use cases are for correlation engines, such as image classifiers and shallow query answering engines often known as chat bots. In inference engines a number of simple claims formed by single triplets are stringed together to form composite statements by composition rules. Such statements can then be used both as questions to the engine (analysis) and answers from the engine (synthesis).
 
 {% include theorems.html id="proposition" %}
@@ -130,7 +137,9 @@ $$
 
 where the symbols $x$ and $y$ represents input and output, and a function transferring symbols $f(x) \to y$. The sets $x _i$ and $y _j$ would be subsets of a larger common set to be formally correct. Generalizing the symbols into vectors should not be a big leap of faith, and likewise the function into being a vector function.
 
-A neural net trained as a typical correlation engine has no natural zero-element. It learns to classify known states. In particular it does not learn to distinguish whats unknown, but it can guestimate such states from previous learned states. This creates some pretty weird problems. Those often shows up in semantic web as exceptions. In [Wikidata](https://wikidata.org) they are handled as part of [snaks](https://www.wikidata.org/wiki/Wikidata:Glossary#Snak), given as `no value` and `unknown value`. The problem is also known from [natural language processing](https://https://en.wikipedia.org/wiki/Natural_language_processing), with unknown words marked as `<unk>`.
+Given Searle's terms the symbols could be interpreted as [semantics](https://en.wikipedia.org/wiki/Semantics), while the functions could be interpreted as [syntax](https://en.wikipedia.org/wiki/Syntax). The functions (syntax) gives the structure whereby symbols (semantics) are interpreted.
+
+A neural net trained as a typical correlation engine has no natural zero-element. It learns to classify known states. In particular, it does not learn to distinguish whats unknown, but it can guestimate such states from previous learned states. This creates some pretty weird problems. Those often shows up in semantic web as exceptions. In [Wikidata](https://wikidata.org) they are handled as part of [snaks](https://www.wikidata.org/wiki/Wikidata:Glossary#Snak), given as `no value` and `unknown value`. The problem is also known from [natural language processing](https://https://en.wikipedia.org/wiki/Natural_language_processing), with unknown words marked as `<unk>`.
 
 The concept of “weak classifications”, the less probable states, could be interpreted as a zero-element. If all possible classifications goes towards zero, then that will approximate a zero-element. Thus there might be a rather exact zero-element for the output $y_i$, but for the input $x_i$ there might be large subspace that acts as a zero value.
 
