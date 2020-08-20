@@ -111,6 +111,17 @@ sources:
     url: https://no.wikipedia.org/w/index.php?curid=1663621
     year: 2019
     timestamp: Tue, 12 Feb 2019 12:03‎ +0200
+  searle_1980:
+    title: Minds, brains, and programs
+    volume: 3
+    doi: 10.1017/S0140525X00005756
+    number: 3
+    journal: Behavioral and Brain Sciences
+    publisher: Cambridge University Press
+    authors:
+      - Searle, John R.
+    year: 1980
+    pages: 417–424
 ---
 
 There are some striking similarities between [reasoning systems](https://en.wikipedia.org/wiki/Reasoning_system). Processing in [cortical minicolumns](https://https://en.wikipedia.org/wiki/Cortical_minicolumn) and representations in [formal languages](https://en.wikipedia.org/wiki/Formal_language), both as [logic](https://en.wikipedia.org/wiki/Formal_semantics_(logic)) and [linguistics](https://en.wikipedia.org/wiki/Formal_semantics_(linguistics)), and the form used in [mathematical logic](https://en.wikipedia.org/wiki/Mathematical_logic). In particular the [triplets](https://en.wikipedia.org/wiki/Semantic_triple) from [semantic web](https://en.wikipedia.org/wiki/Semantic_Web) has some striking similarities. There are input vectors representing symbols, functions that relates those input vectors to output vectors, and those output vectors are also symbols. These can be directly compared to the *subject–predicate–object* expression used in a semantic triple. When trying to implement this in [machine learning](https://en.wikipedia.org/wiki/Machine_learning), and in particular [artificial neural networks](https://en.wikipedia.org/wiki/Artificial_neural_network), the similarities has some very real consequences.
@@ -137,7 +148,7 @@ $$
 
 where the symbols $x$ and $y$ represents input and output, and a function transferring symbols $f(x) \to y$. The sets $x _i$ and $y _j$ would be subsets of a larger common set to be formally correct. Generalizing the symbols into vectors should not be a big leap of faith, and likewise the function into being a vector function.
 
-Given Searle's terms the symbols could be interpreted as [semantics](https://en.wikipedia.org/wiki/Semantics), while the functions could be interpreted as [syntax](https://en.wikipedia.org/wiki/Syntax). The functions (syntax) gives the structure whereby symbols (semantics) are interpreted.
+Given Searle's terms {% include cite.html id="searle_1980" %} the symbols could be interpreted as [semantics](https://en.wikipedia.org/wiki/Semantics), while the functions could be interpreted as [syntax](https://en.wikipedia.org/wiki/Syntax). The functions (syntax) gives the structure whereby symbols (semantics) are interpreted.
 
 A neural net trained as a typical correlation engine has no natural zero-element. It learns to classify known states. In particular, it does not learn to distinguish whats unknown, but it can guestimate such states from previous learned states. This creates some pretty weird problems. Those often shows up in semantic web as exceptions. In [Wikidata](https://wikidata.org) they are handled as part of [snaks](https://www.wikidata.org/wiki/Wikidata:Glossary#Snak), given as `no value` and `unknown value`. The problem is also known from [natural language processing](https://https://en.wikipedia.org/wiki/Natural_language_processing), with unknown words marked as `<unk>`.
 
