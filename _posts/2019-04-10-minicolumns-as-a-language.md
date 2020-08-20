@@ -13,12 +13,12 @@ provision:
 categories:
   - neural nets
 title: Minicolumns as a language
-tagline: the strange similarities
+tagline: the strange similarities with formal semantics
 tags : formal languages, minicolumn
 parent: neural_nets
 description: >-
   Describing minicolumns as functions connecting and transforming symbols has similarities to
-  formal semantics and inference in a neural nets.
+  formal semantics and inference in neural networks.
 authors:
   - jeblad
 licenses:
