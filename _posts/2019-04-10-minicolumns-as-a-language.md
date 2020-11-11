@@ -6,6 +6,7 @@ modified:
   - 2019-04-10
   - 2019-05-01
   - 2020-08-20
+  - 2020-11-12
 provision:
   2019-04-10: Created article
   2019-05-01: Added sources
@@ -134,7 +135,7 @@ These similarities are apparent when neural nets are used in inference engines, 
 
 {% include theorems.html id="proposition" %}
 
-A single triplet can be viewed as the language $\mathcal{L}$
+A single triplet can be viewed as the language $\mathcal{L}$ with a slight [abuse of notation](https://en.wikipedia.org/wiki/Abuse_of_notation)
 
 $$
 \begin{equation}
@@ -164,7 +165,7 @@ In an ideal World a single function, that is a single total learned transfer fun
 
 A corollary to this is that a small correction in transfer learning should be taken in smaller steps if the previous learning set was large, otherwise learning would step out of the finer manifold defined by the larger training set. The large single function leads to a large training set, which gives small training steps. Together with a large layer this makes the overall processing needs explode. In fully connected neural layer learning is a $O(\alpha TM + \beta NM)$ problem where $N$ being number of input nodes, $M$ being number of output nodes, and $T$ being number of training samples. In general $\alpha$ and $\beta$ are unknown, so both therms should be kept low, that is better keep $M$ low or keep the number of output nodes low.
 
-Can the implemented function be kept simple, without sacrificing precision, and hopefully also with a limited training set?
+Can the implemented function be kept simple, without sacrificing too much precision, and hopefully also with a limited training set?
 
 The Global World can be partitioned into smaller Local Worlds. By doing so, the size of the function is limited (that is the number of nodes) and the necessary training set is also limited. Note that the function is the predicate in the triplet, thus it is obvious that it is a kind of subworld in a larger World, and thus its scope is somewhat limited.
 
