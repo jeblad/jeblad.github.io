@@ -135,25 +135,25 @@ These similarities are apparent when neural nets are used in inference engines, 
 
 {% include theorems.html id="proposition" %}
 
-A single triplet can be viewed as the language $\mathcal{L}$ with a slight [abuse of notation](https://en.wikipedia.org/wiki/Abuse_of_notation)
+A single triplet can be viewed as the language $\mathcal{L}$ with a slight [abuse of notation](https://en.wikipedia.org/wiki/Abuse_of_notation) as we are lacking the zero item
 
 $$
 \begin{equation}
 \mathcal{L} = \left \{
-  \underbrace{ x _i } _{ \text{subject} },
+  \underbrace{ x ^{\left ( k \right ) }} _{ \text{subject} },
   \underbrace{ f (\cdot) } _{ \text{predicate} },
-  \underbrace{ y  _j } _{ \text{object} }
+  \underbrace{ y  ^{ \left ( k \right ) }} _{ \text{object} }
 \right \}
 \end{equation}
 $$
 
-where the symbols $x$ and $y$ represents input and output, and a function transferring symbols $f(x) \to y$. The sets $x _i$ and $y _j$ would be subsets of a larger common set to be formally correct. Generalizing the symbols into vectors should not be a big leap of faith, and likewise the function into being a vector function.
+where the symbols $x$ and $y$ represents input and output, and a function transferring symbols $f(x) \to y$. The sets $x ^{ \left ( k \right ) }$ and $y ^{ \left ( k \right ) }$ would be subsets of a larger common set to be formally correct. Generalizing the symbols into vectors should not be a big leap of faith, and likewise the function into being a vector function.
 
 Given Searle's terms {% include cite.html id="searle_1980" %} the symbols could be interpreted as [semantics](https://en.wikipedia.org/wiki/Semantics), while the functions could be interpreted as [syntax](https://en.wikipedia.org/wiki/Syntax). The functions (syntax) gives the structure whereby symbols (semantics) are interpreted.
 
 A neural net trained as a typical correlation engine has no natural zero-element. It learns to classify known states. In particular, it does not learn to distinguish whats unknown, but it can guestimate such states from previous learned states. This creates some pretty weird problems. Those often shows up in semantic web as exceptions. In [Wikidata](https://wikidata.org) they are handled as part of [snaks](https://www.wikidata.org/wiki/Wikidata:Glossary#Snak), given as `no value` and `unknown value`. The problem is also known from [natural language processing](https://https://en.wikipedia.org/wiki/Natural_language_processing), with unknown words marked as `<unk>`.
 
-The concept of “weak classifications”, the less probable states, could be interpreted as a zero-element. If all possible classifications goes towards zero, then that will approximate a zero-element. Thus there might be a rather exact zero-element for the output $y_i$, but for the input $x_i$ there might be large subspace that acts as a zero value.
+The concept of “weak classifications”, the less probable states, could be interpreted as a zero-element. If all possible classifications goes towards zero, then that will approximate a zero-element. Thus there might be a rather exact zero-element for the output $y ^{ \left ( k \right ) }$, but for the input $x ^{ \left ( k \right ) }$ there might be large subspace that acts as a zero value.
 
 A rather brilliant description of reasoning is “algebraically manipulating previously acquired knowledge in order to answer a new question” given by {% include cite.html id="DBLP:journals/corr/abs-1102-1808" %}. The previously acquired knowledge has been used for training the neural net, the question is new inputs, the answer is new outputs, and the algebraic manipulation is how the functions are chained together. The algebraic manipulations can be strict logical expressions, but it can be a lot more.
 
@@ -176,16 +176,16 @@ A single triplet can be viewed as the language $\mathcal{L}$, organized as a 2-d
 $$
 \begin{equation}
 \mathcal{L} = \left \{
-  \underbrace{ \mathbf{x} ^{[i,j]} _k } _{ \text{subject} },
-  \underbrace{ f ^{[i,j]}(\cdot) } _{ \text{predicate} },
-  \underbrace{ \mathbf{y} ^{[i,j] } _k } _{ \text{object} }
+  \underbrace{ \mathbf{x} ^{ij \left ( k \right )}} _{ \text{subject} },
+  \underbrace{ f ^{ij}(\cdot) } _{ \text{predicate} },
+  \underbrace{ \mathbf{y} ^{ij \left ( k \right )}} _{ \text{object} }
 \right \}
 \end{equation}
 $$
 
-where $f^{[i,j]}(\cdot)$ is a function that takes an input $\mathbf{x}^{[i,j]}$ representing a symbol and transforms it into an output $\mathbf{y}^{[i,j]}$ that represents a new symbol, like $f(x) \to y$. Except for the superscript there isn't anything new from eq. 1 above.
+where $f^{ij}(\cdot)$ is a function that takes an input $\mathbf{x} ^{ij}$ representing a symbol and transforms it into an output $\mathbf{y} ^{ij}$ that represents a new symbol, like $f(x) \to y$. Except for the superscript there isn't anything new from eq. 1 above.
 
-The two symbols $\mathbf{x} ^{ [i, j] } _{k}$ and $\mathbf{y} ^{[i, j]} _{k}$ are high-dimensional vectors, organized as a set indexed by $k$. The indexes $i$ and $j$ are 2-dimensional indexes over a map of subworlds. This does not have to be 2-dimensional, it is just nice and it fits well with the minicolumn analogy.
+The two symbols $\mathbf{x} ^{ij \left ( k \right )}$ and $\mathbf{y} ^{ij \left ( k \right )}$ are high-dimensional vectors, organized as a set indexed by $k$. The indexes $i$ and $j$ are 2-dimensional indexes over a map of subworlds. This does not have to be 2-dimensional, it is just nice and it fits well with the minicolumn analogy.
 
 ### Consequences
 
