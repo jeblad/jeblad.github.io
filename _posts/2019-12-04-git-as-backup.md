@@ -42,7 +42,7 @@ Now you have an empty repo at keybase, but still has to point your existing repo
     pushurl = git@github.com:user/myrepo.git
     pushurl = keybase://private/user/myrepo
 
-This is assuming your have `url = https://github.com/user/myrepo.git` for `remote "origin"`. I use https for most operations, but for push I use ssh, thus the `git@github…` stuff at the first line. I show this because I want to visualize that you can infact have two `pushurl` statements. The second line is the repo at Keybase, which use an other action during upload. From the outside this looks just like an ordinary `git push`, and even [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code) sees nothing out of the ordinary and pushes gladly to the additional repo. Thus I now maintain a backup at Keybase while using a public repo at GitHub.
+This is assuming your have `url = https://github.com/user/myrepo.git` for `remote "origin"`. I use https for most operations, but for push I use ssh, thus the `git@github…` stuff at the first line. I show this because I want to visualize that you can in fact have two `pushurl` statements. The second line is the repo at Keybase, which use an other action during upload. From the outside this looks just like an ordinary `git push`, and even [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code) sees nothing out of the ordinary and pushes gladly to the additional repo. Thus I now maintain a backup at Keybase while using a public repo at GitHub.
 
 Editing the `.git/config` can be a little awkward, but you can do the same with
 
