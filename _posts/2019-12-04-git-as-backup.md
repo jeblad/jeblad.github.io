@@ -12,7 +12,9 @@ categories :
 tags:
   - git
   - backup
-  - secure store
+  - data integrity
+  - data retention
+  - data safety
 licenses:
   - cc-by-sa-4.0
 ---
