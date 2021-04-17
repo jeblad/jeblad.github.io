@@ -65,4 +65,6 @@ Previously I've been using [Déjà Dup](https://wiki.gnome.org/Apps/DejaDup) to 
 
 After changing to ZFS for the home directories I have decided to do something similar for my backup, and swap out duplicity for [zanoid](https://github.com/jimsalterjrs/sanoid/) instead. This is configured to make snapshots of a ZFS file system at regular intervals. As a pure backup utility the HDD with the cold store may fail without it being critical, the real homedir are still alive and kicking, and it can be swapped out for a new disk without any problem. If it due to some reason is important to keep the history, then the HDD can be mirrored in a RAID, but it would be better to create an off-site copy from time to time.
 
-The zanoid snapshot utility is set up to create a new snapshot each hour, and collect them for slightly more than two weeks. Then it will keep one snapshot for each day for two months, and after that one for each week. That is sufficient for my purposes.
+The zanoid snapshot utility is set up to create a new snapshot each hour, and collect them for slightly more than two weeks. Then it will keep one snapshot for each day for two months, and after that one for each week. Because snapshots are small and compact, they takes little space, and as long as the backup disk is somewhat larger than the file systems it copies, it should be sufficient. Exactly how much larger is not clear, it is dependent on the actual content.
+
+This setup is sufficient for my purpose.
