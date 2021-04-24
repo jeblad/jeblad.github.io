@@ -3,8 +3,8 @@ layout: post
 language: en
 created: 2021-04-17 13:43:00 (CEST)
 modified: 2021-04-24 12:20:00 (CEST)
-title: ZFS and zanoid
-tagline: a better file system with snapshots
+title: ZFS and backup
+tagline: a better file system with snapshots as backup
 description: How to set up ZFS to get a good security, and a lot better backup strategy, without wasting a fortune.
 categories :
   - other
