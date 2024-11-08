@@ -43,7 +43,7 @@ collections:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-materialdocs
+#theme: jekyll-materialdocs
 remote_theme: chromatical/jekyll-materialdocs
 plugins:
   - jekyll-paginate
